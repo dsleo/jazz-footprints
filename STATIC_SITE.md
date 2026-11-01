@@ -44,6 +44,6 @@ every upload. YouTube can also seek to a nearby keyframe. A passage with no
 known link shows “No matched video.”
 
 The static app is read-only. Shared reviews and live YouTube discovery remain
-future backend features. This catalog currently covers WJazzD only; the JTD
-pilot needs a corrected beat representation before joint rhythm matching, and
-the DTL1000 note collection is incomplete.
+future backend features. This catalog covers WJazzD and the full Jazz Trio Database (top-note piano
+projection, beats interpolated from its beat grid); the DTL1000 note collection
+is incomplete and not included.

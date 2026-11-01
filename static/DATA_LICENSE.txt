@@ -12,6 +12,11 @@ Abeßer, Zaddach & Burkhart, eds., *Inside the Jazzomat: New Perspectives for
 Jazz Research*, 2017), available at
 <https://jazzomat.hfm-weimar.de/download/download.html>.
 
+**Jazz Trio Database.** The catalog also contains piano-trio solos derived from
+the Jazz Trio Database (Cheston et al.,
+<https://github.com/HuwCheston/Jazz-Trio-Database>), whose annotations are
+released under the MIT licence. Piano MIDI is reduced to its top note per onset.
+
 **Changes.** Solo transcriptions were re-indexed and aligned in pairs to find
 shared phrases. The catalog stores each matched passage with its note positions,
 alignment, similarity score, solo metadata, and recording links. Scores are

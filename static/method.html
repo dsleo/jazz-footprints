@@ -58,7 +58,7 @@
         </section>
         <section id="corpus" class="methods-section">
           <div class="section-heading"><span>01 / Input</span><h2>Corpus and representation</h2></div>
-          <p>The input is the <a href="https://jazzomat.hfm-weimar.de/dbformat/dboverview.html">Weimar Jazz Database</a> (WJazzD), release 2.1: 456 manually prepared monophonic solo transcriptions, with 200,809 note events in this import. We use each note’s rounded semitone pitch, onset and duration in seconds, and the database beat grid. Metadata supplies performer, instrument, composition, and recording date. Other prepared collections are not included in the published index.<sup><a href="#ref-1">1</a></sup></p>
+          <p>The input is the <a href="https://jazzomat.hfm-weimar.de/dbformat/dboverview.html">Weimar Jazz Database</a> (WJazzD), release 2.1: 456 manually prepared monophonic solo transcriptions, with 200,809 note events in this import. We use each note’s rounded semitone pitch, onset and duration in seconds, and the database beat grid. Metadata supplies performer, instrument, composition, and recording date. The index also holds 1,102 piano-trio solos from the <a href="https://github.com/HuwCheston/Jazz-Trio-Database">Jazz Trio Database</a> (JTD), whose chordal piano is reduced to its top note per onset and whose beats come from its tracked beat grid; JTD solos play from the performance’s own YouTube video. Other prepared collections are not included in the published index.<sup><a href="#ref-1">1</a></sup><sup><a href="#ref-2">2</a></sup></p>
           <p>Onsets and note endpoints are interpolated onto the beat grid. For a solo with pitches <i>p</i><sub>i</sub>, the interval sequence is:</p>
           <div class="equation" role="group" aria-label="Equation 1: pitch interval equals the following pitch minus the current pitch">
             <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>Δ</mi><mi>i</mi></msub><mo>=</mo><msub><mi>p</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>−</mo><msub><mi>p</mi><mi>i</mi></msub></mrow></math>
@@ -130,6 +130,7 @@
           <div class="section-heading"><span>Sources</span><h2>References</h2></div>
           <ol>
             <li id="ref-1">Pfleiderer, M., Frieler, K., Abeßer, J., Zaddach, W.-G., &amp; Burkhart, B. (eds.). 2017. <em>Inside the Jazzomat: New Perspectives for Jazz Research.</em> Schott Campus. <a href="https://jazzomat.hfm-weimar.de/dbformat/dboverview.html">WJazzD documentation ↗</a></li>
+            <li id="ref-2">Cheston, H., et al. <em>Jazz Trio Database</em> (v0.2, MIT-licensed annotations). <a href="https://github.com/HuwCheston/Jazz-Trio-Database">Repository ↗</a></li>
             <li id="ref-2">Frieler, K., Höger, F., Pfleiderer, M., &amp; Dixon, S. 2018. “Two Web Applications for Exploring Melodic Patterns in Jazz Solos.” <em>Proceedings of ISMIR 2018</em>, 777–783. <a href="https://ismir2018.ircam.fr/doc/pdfs/177_Paper.pdf">Paper ↗</a></li>
             <li id="ref-3">Balke, S., Dittmar, C., Abeßer, J., Frieler, K., Pfleiderer, M., &amp; Müller, M. 2018. “Bridging the Gap: Enriching YouTube Videos with Jazz Music Annotations.” <em>Frontiers in Digital Humanities</em> 5:1. <a href="https://doi.org/10.3389/fdigh.2018.00001">DOI ↗</a></li>
           </ol>

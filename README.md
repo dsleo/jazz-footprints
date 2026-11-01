@@ -2,7 +2,7 @@
 
 **Live site: <https://dsleo.github.io/stolen-moments/>**
 
-A read-only web app for discovering shared phrases in the 456 solo transcriptions of the Weimar Jazz Database (WJazzD) v2.1. Pick a pair of solos, hear both, see the notes line up, and jump to the recording at that moment. The whole archive is **precomputed**, so the published site is plain static files: no server, database or build step at view time. See [STATIC_SITE.md](STATIC_SITE.md) for hosting details.
+A read-only web app for discovering shared phrases in 1,558 solo transcriptions: the 456 saxophone, trumpet, trombone and clarinet solos of the Weimar Jazz Database (WJazzD) v2.1, and 1,102 piano-trio solos from the [Jazz Trio Database](https://github.com/HuwCheston/Jazz-Trio-Database) (JTD). Pick a pair of solos, hear both, see the notes line up, and jump to the recording at that moment. The whole archive is **precomputed**, so the published site is plain static files: no server, database or build step at view time. See [STATIC_SITE.md](STATIC_SITE.md) for hosting details.
 
 ## Quick start
 
@@ -35,6 +35,9 @@ Pushing to `main` runs `.github/workflows/pages.yml`, which publishes the `stati
 ```sh
 python3 -m jazzmine download                 # WJazzD SQLite source -> data/wjazzd.db
 python3 -m jazzmine sync-jazztube            # YouTube links with solo alignments
+python3 -m jazzmine import-jtd-pilot /path/to/jazz-trio-database-v02.zip --limit 1294   # all JTD solos -> data/jtd.db
+python3 -m jazzmine.video_audit              # flag unavailable JTD videos -> data/joint-video-audit.json
+python3 -m jazzmine.artwork                  # album covers -> data/album-art-map.json
 python3 -m jazzmine.joint_store              # joint search -> data/joint-search.db (about 1 minute)
 python3 -m jazzmine.static_export            # -> static/catalog/
 npm ci && npm run build:listen                # -> static/listen/assets/ (local model)
@@ -68,7 +71,7 @@ python3 -m jazzmine validate
 python3 -m pytest
 ```
 
-`validate` checks ingestion of the source (456 solos, 200,809 note events).
+`validate` checks ingestion of the WJazzD source (456 solos, 200,809 note events).
 
 ## Near-duplicate passages (joint search)
 
@@ -76,13 +79,12 @@ python3 -m pytest
 
 **Fix.** `consolidate()` in `jazzmine/joint_store.py` runs at the end of every build (pipeline `joint-seed-5-right-v3`). The aligner now retains the longest endpoint that still meets the 80% export floor, then consolidates overlapping windows within each ordered solo pair. Windows that overlap a stronger one by at least 50% of the shorter range on **both** solos are treated as the same passage; the highest-evidence window is kept. To rebuild and publish: `python3 -m jazzmine.joint_store`, then `python3 -m jazzmine.static_export`.
 
-**Current catalog** (27 October 2026, similarity ≥ 0.8):
+**Current catalog** (1 November 2026, similarity ≥ 0.8, WJazzD plus all of JTD):
 
 | Measure | Count |
 | --- | ---: |
-| Passages in the static catalog | 215,084 |
-| Crate results (different compositions) | 213,870 |
-| Source solos represented | 456 |
+| Passages in the static catalog | 323,411 |
+| Source solos represented | 1,558 (456 WJazzD, 1,102 JTD) |
 
 The endpoint change increased the catalog because qualifying prefixes survive a poorer continuation. The 50% overlap threshold remains a judgement call and has not been tuned against listener labels.
 
@@ -98,10 +100,10 @@ The endpoint change increased the catalog because qualifying prefixes survive a 
 - **Pitch creates candidates; rhythm does not.** Octave displacement and contour-preserving variants with different interval sizes are not matched.
 - **Rightward extension only.** The alignment starts at the seed and grows right, so a passage may begin a few notes after its true start; neighbouring seeds are merged by the clean-up above.
 - **Different solos only.** A phrase repeated inside one solo is not reported, though the same performer across two solos is.
-- **Single collection.** Only WJazzD (456 solos) is in the site. DTL1000 and the Jazz Trio Database pilot are prepared but not included (below).
+- **Two collections.** The site holds WJazzD (456 solos) and the Jazz Trio Database (1,102 solos). DTL1000 is prepared but not included (below). JTD piano is reduced to its top note per onset, so JTD matches are rougher than WJazzD ones; filter on *Piano · top-note projection* to inspect them.
 - **Scoring is a heuristic** with hand-set weights, not calibrated against expert labels.
-- **Recording links are approximate.** Timestamps are interpolated from JazzTube's solo alignment and rounded down to the second; a particular upload may need manual correction, and 114,813 of the 430,168 passage sides in the current catalog have no matched video.
-- **Everything loads in the browser.** The compact index is about 5.4 MB compressed; passage details and notes are fetched on demand, while filtering and graph calculations run in a Web Worker.
+- **Recording links are approximate.** Timestamps are interpolated from JazzTube's solo alignment and rounded down to the second; a particular upload may need manual correction, and 124,563 of the 646,822 passage sides in the current catalog have no matched video. JTD links come from the database's own YouTube URLs and solo start times; passages whose video is unavailable or shorter than the timestamp are dropped (21,174 in the current build), as are a few hand-excluded pairs listed in `data/catalog-exclusions.json`.
+- **Everything loads in the browser.** The compact index is about 9.4 MB compressed; passage details and notes are fetched on demand, while filtering and graph calculations run in a Web Worker.
 
 ## Other collections
 
@@ -114,18 +116,9 @@ lists the 935 missing note tracks, and documents timestamp discrepancies between
 the JSON and CSV. Run `python3 -m jazzmine export-dtl /path/to/dtl_1000.json` to
 produce a staging JSON with available notes, original metadata, and a gap report.
 
-### Jazz Trio Database pilot
+### Jazz Trio Database
 
-A balanced pilot of 120 performances from the [Jazz Trio Database](https://github.com/HuwCheston/Jazz-Trio-Database)
-is available in the local index. Its chordal piano MIDI is represented by a
-provisional highest-note line, so motif matches are exploratory. The imported
-annotation data is MIT-licensed; linked recordings retain their own terms. To
-rebuild the local pilot database from the official release archive, run
-`python3 -m jazzmine import-jtd-pilot /path/to/jazz-trio-database-v02.zip`.
-The app currently combines WJazzD with this pilot; use **Jazz Trio Database
-only** to inspect its internal matches.
-The [pilot report](data/JTD_PILOT.md) records source details, extraction method,
-and initial match counts.
+All 1,294 performances of the [Jazz Trio Database](https://github.com/HuwCheston/Jazz-Trio-Database) v0.2 are indexed; 1,102 solos are in the catalog after unplayable videos were removed. Its chordal piano MIDI is represented by a highest-note line, so motif matches are exploratory. Beats are interpolated from the database's tracked beat grid. Alternate takes ("X alternate", "X take 2") count as the same tune, so a take is never paired with another take of itself. The imported annotation data is MIT-licensed; linked recordings and album covers retain their own terms. Rebuild with `python3 -m jazzmine import-jtd-pilot /path/to/jazz-trio-database-v02.zip --limit 1294`, then the joint store and export above. The older [pilot report](data/JTD_PILOT.md) records the extraction method.
 
 ## Boundaries
 
@@ -137,6 +130,6 @@ See [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) for the research rationale 
 
 ## Data and attribution
 
-WJazzD is published by the Jazzomat Research Project under the Open Database License (ODbL) 1.0, with individual contents under the Database Contents License. The static catalog is a derived database and is offered under the same ODbL terms with the required attribution; see [static/DATA_LICENSE.txt](static/DATA_LICENSE.txt), which is also linked from the site footer. Third-party material (album covers, YouTube videos, portraits) is not covered by that licence.
+WJazzD is published by the Jazzomat Research Project under the Open Database License (ODbL) 1.0, with individual contents under the Database Contents License. The Jazz Trio Database annotations (Cheston et al.) are MIT-licensed. The static catalog is a derived database and is offered under the same ODbL terms with the required attribution; see [static/DATA_LICENSE.txt](static/DATA_LICENSE.txt), which is also linked from the site footer. Third-party material (album covers, YouTube videos, portraits) is not covered by that licence.
 
 See the [official download and license page](https://jazzomat.hfm-weimar.de/download/download.html), the [schema](https://jazzomat.hfm-weimar.de/dbformat/dbformat.html), and the citation requested by the project: Pfleiderer, Frieler, Abeßer, Zaddach & Burkhart (eds.), *Inside the Jazzomat: New Perspectives for Jazz Research* (2017).

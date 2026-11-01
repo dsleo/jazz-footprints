@@ -1,14 +1,19 @@
 {
-  "passages": 215084,
-  "solos": 456,
+  "passages": 323411,
+  "solos": 1558,
   "floor": 0.8,
   "recording_sides": {
-    "aligned": 269633,
-    "none": 114813,
-    "estimated": 45722
+    "verified": 187325,
+    "aligned": 284898,
+    "none": 124563,
+    "estimated": 50036
   },
-  "cached_covers": 128,
-  "resolved_covers": 161,
-  "index_bytes": 5362742,
-  "total_bytes": 32981217
+  "dropped_passages": {
+    "jtd_video_unplayable": 21174,
+    "excluded": 2
+  },
+  "cached_covers": 131,
+  "resolved_covers": 1129,
+  "index_bytes": 9397735,
+  "total_bytes": 85262242
 }
