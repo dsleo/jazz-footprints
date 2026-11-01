@@ -26,6 +26,7 @@ SHARD_SIZE = 1024
 ALBUM_ART_MAP = ROOT / "data" / "album-art-map.json"
 VIDEO_AUDIT = ROOT / "data" / "joint-video-audit.json"
 VIDEO_REPLACEMENTS = ROOT / "data" / "joint-video-replacements.json"
+EXCLUSIONS = ROOT / "data" / "catalog-exclusions.json"
 
 
 def write_gzip(path: Path, value: object) -> None:
@@ -64,6 +65,34 @@ def media_maps(path: Path) -> tuple[dict, dict, dict]:
 def youtube_id(url: str) -> str | None:
     hit = re.search(r"(?:v=|youtu\.be/|embed/)([\w-]{11})", url or "")
     return hit.group(1) if hit else None
+
+
+def excluded_pairs(path: Path = EXCLUSIONS) -> set[tuple[int, int, int, int]]:
+    """Pair keys (a.a0.b.b0, either orientation) removed from the catalog by hand."""
+    keys = set()
+    for item in json.loads(path.read_text()) if path.exists() else []:
+        a, a0, b, b0 = map(int, item["pair"].split("."))
+        keys |= {(a, a0, b, b0), (b, b0, a, a0)}
+    return keys
+
+
+def video_health(path: Path = VIDEO_AUDIT) -> tuple[set[str], dict[str, int]]:
+    """Unavailable video IDs and known durations from the video audit."""
+    if not path.exists():
+        return set(), {}
+    videos = json.loads(path.read_text()).get("videos", [])
+    return ({v["id"] for v in videos if v["status"] == "unavailable"},
+            {v["id"]: v["duration"] for v in videos if v.get("duration")})
+
+
+def jtd_unplayable(solo, link: dict | None, unavailable: set[str], durations: dict[str, int]) -> bool:
+    """A JTD side with no working video at its timestamp cannot be heard, so its pairs are dropped."""
+    if solo.source != "JTD":
+        return False
+    if link is None or link["video_id"] in unavailable:
+        return True
+    duration = durations.get(link["video_id"])
+    return duration is not None and link["second"] >= duration
 
 
 def recording(solo, track_time: float, manual: dict, aligned: dict, automatic: dict) -> dict | None:
@@ -116,6 +145,9 @@ def export(store: Path = DEFAULT_STORE, output: Path = OUTPUT,
             raise ValueError("The export floor must match the endpoint floor used to build the joint index")
         solos = load_combined_corpus()
         manual, aligned, automatic = media_maps(media_store)
+        skipped_pairs = excluded_pairs()
+        unavailable, durations = video_health()
+        dropped = Counter()
         album_art = json.loads(ALBUM_ART_MAP.read_text()) if ALBUM_ART_MAP.exists() else {}
         output.mkdir(parents=True, exist_ok=True)
         detail_dir = output / "detail"
@@ -136,12 +168,18 @@ def export(store: Path = DEFAULT_STORE, output: Path = OUTPUT,
                             ORDER BY evidence DESC,a_id,b_id,a_start,b_start""", (floor,)):
             ai, bi, a0, a1, b0, b1, paired, gaps, cost, similarity, evidence, transposition, alignment = r
             a, b = solos[ai], solos[bi]
-            used.update((ai, bi))
+            if (ai, a0, bi, b0) in skipped_pairs:
+                dropped["excluded"] += 1
+                continue
             ta_raw = a.solo_start + a.onsets[a0]
             tb_raw = b.solo_start + b.onsets[b0]
             ta, tb = round(ta_raw, 3), round(tb_raw, 3)
             ra = recording(a, ta_raw, manual, aligned, automatic)
             rb = recording(b, tb_raw, manual, aligned, automatic)
+            if jtd_unplayable(a, ra, unavailable, durations) or jtd_unplayable(b, rb, unavailable, durations):
+                dropped["jtd_video_unplayable"] += 1
+                continue
+            used.update((ai, bi))
             for link in (ra, rb):
                 coverage[link["kind"] if link else "none"] += 1
             # Row ID is its position in this stable evidence-sorted array.
@@ -163,6 +201,8 @@ def export(store: Path = DEFAULT_STORE, output: Path = OUTPUT,
             solo = solos[mid]
             item = solo_metadata(solo)
             link = recording(solo, solo.solo_start + solo.onsets[0], manual, aligned, automatic)
+            if jtd_unplayable(solo, link, unavailable, durations):
+                link = None
             if link:
                 item["video_id"] = link["video_id"]
                 item["video_kind"] = link["kind"]
@@ -207,7 +247,7 @@ def export(store: Path = DEFAULT_STORE, output: Path = OUTPUT,
                    "settings": settings,
                    "solos": metadata, "rows": rows})
         report = {"passages": len(rows), "solos": len(used), "floor": floor,
-                  "recording_sides": dict(coverage), "cached_covers": covers_copied,
+                  "recording_sides": dict(coverage), "dropped_passages": dict(dropped), "cached_covers": covers_copied,
                   "resolved_covers": resolved_covers,
                   "index_bytes": (output / "index.json.gz").stat().st_size,
                   "total_bytes": sum(p.stat().st_size for p in output.rglob("*") if p.is_file())}

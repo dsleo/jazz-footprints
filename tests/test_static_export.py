@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from types import SimpleNamespace
 
-from jazzmine.static_export import recording
+from jazzmine.static_export import excluded_pairs, jtd_unplayable, recording
 
 
 SOLO = SimpleNamespace(
@@ -51,3 +51,27 @@ class JtdRecordingTests(unittest.TestCase):
         solo = SimpleNamespace(source="JTD", solo_start=0, trackid=1, melid=1,
                                source_url="https://github.com/HuwCheston/Jazz-Trio-Database")
         self.assertIsNone(recording(solo, 10, {}, {}, {}))
+
+
+class JtdPlayabilityTests(unittest.TestCase):
+    JTD = SimpleNamespace(source="JTD")
+
+    def test_unavailable_or_too_short_video_is_unplayable(self):
+        link = {"video_id": "abc12345678", "second": 4950}
+        self.assertTrue(jtd_unplayable(self.JTD, link, {"abc12345678"}, {}))
+        self.assertTrue(jtd_unplayable(self.JTD, link, set(), {"abc12345678": 200}))
+        self.assertTrue(jtd_unplayable(self.JTD, None, set(), {}))
+
+    def test_playable_jtd_and_other_sources_are_kept(self):
+        link = {"video_id": "abc12345678", "second": 100}
+        self.assertFalse(jtd_unplayable(self.JTD, link, set(), {"abc12345678": 200}))
+        self.assertFalse(jtd_unplayable(SimpleNamespace(source="WJazzD"), None, set(), {}))
+
+    def test_exclusion_matches_either_orientation(self):
+        import json, tempfile
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "x.json"
+            path.write_text(json.dumps([{"pair": "1.2.3.4", "reason": "x"}]))
+            keys = excluded_pairs(path)
+        self.assertEqual(keys, {(1, 2, 3, 4), (3, 4, 1, 2)})
