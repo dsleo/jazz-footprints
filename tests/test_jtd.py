@@ -14,3 +14,15 @@ class BeatPositionTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TuneTitleTests(unittest.TestCase):
+    def test_other_takes_share_the_tune(self):
+        from jazzmine.corpus import tune_title
+        for title in ("Trio alternate", "Trio alternate take 2", "Trio take 3", "Trio"):
+            self.assertEqual(tune_title(title), "trio")
+
+    def test_real_titles_are_untouched(self):
+        from jazzmine.corpus import tune_title
+        self.assertEqual(tune_title("Alternate Route"), "alternate route")
+        self.assertEqual(tune_title("Take the A Train"), "take the a train")

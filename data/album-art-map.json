@@ -262,8 +262,11 @@
     "match_score": 1.0
   },
   "Lester Young\u0000Lester's Be-Bop Boogie": {
-    "path": null,
-    "source": "not-found"
+    "path": "data/covers/album-44419e29-d063-4f38-a346-c99d662cfed8.jpg",
+    "release_id": "44419e29-d063-4f38-a346-c99d662cfed8",
+    "release_title": "Lester's Be-Bop Boogie",
+    "source": "cover-art-archive",
+    "match_score": 1.0
   },
   "Dizzy Gillespie\u0000Jazz Gallery, Dizzy Gillespie, CD 1": {
     "path": null,
@@ -285,8 +288,11 @@
     "source": "not-found"
   },
   "Don Byas\u0000Moon Nocturne": {
-    "path": null,
-    "source": "not-found"
+    "path": "data/covers/album-3956ae01-65bd-47b2-bf4d-c07875db8ebc.jpg",
+    "release_id": "3956ae01-65bd-47b2-bf4d-c07875db8ebc",
+    "release_title": "Moon Nocturne",
+    "source": "cover-art-archive",
+    "match_score": 1.0
   },
   "Don Ellis\u0000Giants of Jazz: Don Ellis featuring Paul Bley, Steve Swallow, Gary Peacock, Nick Martins, Jaki Byard, Ron Carter and Charlie Persip": {
     "path": null,
@@ -393,8 +399,11 @@
     "match_score": 1.0
   },
   "Stan Getz / JJ Johnson\u0000Stan Getz and J.J. Johnson At The Opera House": {
-    "path": null,
-    "source": "not-found"
+    "path": "data/covers/album-b9738ce3-3cad-4016-b847-fac7e77a952b.jpg",
+    "release_id": "b9738ce3-3cad-4016-b847-fac7e77a952b",
+    "release_title": "Stan Getz and J.J. Johnson at The Opera House",
+    "source": "cover-art-archive",
+    "match_score": 1.0
   },
   "Sonny Stitt\u0000Quadromania Jazz Edition, Sonny Stitt, One O'Clock Jump, CD 2": {
     "path": null,
@@ -741,8 +750,11 @@
     "source": "not-found"
   },
   "Roy Eldridge\u0000Minor Jive": {
-    "path": null,
-    "source": "not-found"
+    "path": "data/covers/album-a549fd09-d47f-445b-8a20-d5848765b255.jpg",
+    "release_id": "a549fd09-d47f-445b-8a20-d5848765b255",
+    "release_title": "Minor Jive",
+    "source": "cover-art-archive",
+    "match_score": 1.0
   },
   "Sidney Bechet\u0000The Cradle Of Jazz -Sidney Bechet - Chant In The Night CD 1": {
     "path": null,
@@ -864,5 +876,2460 @@
   "Roy Eldridge\u0000Quadromania Jazz Edition, Zoot Sims, That Old Feeling, CD 1": {
     "path": null,
     "source": "not-found"
+  },
+  "Oscar Peterson\u0000Great Connection": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Ray Brown\u0000The Best of the Concord Years": {
+    "path": "data/covers/album-itunes-9df25dd8c15a.jpg",
+    "source": "itunes",
+    "collection_id": 1452791919,
+    "release_title": "Ray Brown - The Best of the Concord Years",
+    "artist": "Ray Brown",
+    "match_score": 0.808
+  },
+  "Bill Evans\u0000The Complete Bill Evans on Verve": {
+    "path": "data/covers/album-itunes-733cf9a18322.jpg",
+    "source": "itunes",
+    "collection_id": 1437032211,
+    "release_title": "The Complete Bill Evans On Verve",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Ray Brown\u00003 Dimensional": {
+    "path": "data/covers/album-itunes-fde98b6f6aa4.jpg",
+    "source": "itunes",
+    "collection_id": 1529348456,
+    "release_title": "3 Dimensional",
+    "artist": "Ray Brown Trio",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000Dark Beauty": {
+    "path": "data/covers/album-itunes-890531c69372.jpg",
+    "source": "itunes",
+    "collection_id": 160608966,
+    "release_title": "Dark Beauty",
+    "artist": "Kenny Drew",
+    "match_score": 1.0
+  },
+  "Bobby Timmons\u0000Six Classic Albums": {
+    "path": "data/covers/album-7de1ce7d-cd88-40a5-b8ce-3998939e4ccd.jpg",
+    "release_id": "7de1ce7d-cd88-40a5-b8ce-3998939e4ccd",
+    "release_title": "Six Classic Albums",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Oscar Peterson Plays the Cole Porter Songbook": {
+    "path": "data/covers/album-e3d65cd3-944e-3b76-8c49-6aeb4a0932c3.jpg",
+    "release_id": "e3d65cd3-944e-3b76-8c49-6aeb4a0932c3",
+    "release_title": "Oscar Peterson Plays the Cole Porter Songbook",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000Some of My Best Friends Are the Piano Players": {
+    "path": "data/covers/album-itunes-3eddcd13a458.jpg",
+    "source": "itunes",
+    "collection_id": 1683191157,
+    "release_title": "Some Of My Best Friends Are… The Piano Players",
+    "artist": "Ray Brown",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Softly as in a Morning Sunrise": {
+    "path": "data/covers/album-itunes-7e501abdde7b.jpg",
+    "source": "itunes",
+    "collection_id": 1610756701,
+    "release_title": "Softly as in a Morning Sunrise",
+    "artist": "Junior Mance",
+    "match_score": 1.0
+  },
+  "Chick Corea\u0000Further Explorations": {
+    "path": "data/covers/album-b3442204-ac80-45e6-976e-a887366d9f1a.jpg",
+    "release_id": "b3442204-ac80-45e6-976e-a887366d9f1a",
+    "release_title": "Further Explorations",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000A Jazz Portrait of Frank Sinatra": {
+    "path": "data/covers/album-itunes-c73206c8eaa7.jpg",
+    "source": "itunes",
+    "collection_id": 1443277761,
+    "release_title": "A Jazz Portrait of Frank Sinatra",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 1.0
+  },
+  "Sonny Clark\u0000Seven Classic Albums": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Tommy Flanagan\u0000Confirmation": {
+    "path": "data/covers/album-07056a30-4f8c-48fc-aac6-7850258883b4.jpg",
+    "release_id": "07056a30-4f8c-48fc-aac6-7850258883b4",
+    "release_title": "Confirmation",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Wynton Kelly\u0000The Complete Vee Jay Paul ChambersWynton Kelly Sessions 195961": {
+    "path": "data/covers/album-060d4053-af74-4b03-b747-3ac192cb45bd.jpg",
+    "release_id": "060d4053-af74-4b03-b747-3ac192cb45bd",
+    "release_title": "The Complete Vee Jay Paul Chambers-Wynton Kelly Sessions 1959–61",
+    "source": "cover-art-archive",
+    "match_score": 0.983
+  },
+  "Thelonious Monk\u000019441948": {
+    "path": "data/covers/album-824a3f83-f28d-46a9-8cef-7bc7a1d14152.jpg",
+    "release_id": "824a3f83-f28d-46a9-8cef-7bc7a1d14152",
+    "release_title": "1944/1948",
+    "source": "cover-art-archive",
+    "match_score": 0.941
+  },
+  "John Hicks\u0000Fathas Day An Earl Hines Songbook": {
+    "path": "data/covers/album-1d08a206-49d4-4832-b21b-dccc6f80a972.jpg",
+    "release_id": "1d08a206-49d4-4832-b21b-dccc6f80a972",
+    "release_title": "Fatha's Day: An Earl Hines Songbook",
+    "source": "cover-art-archive",
+    "match_score": 0.985
+  },
+  "Brad Mehldau\u0000Introducing Brad Mehldau": {
+    "path": "data/covers/album-itunes-abc7fc622f16.jpg",
+    "source": "itunes",
+    "collection_id": 358106601,
+    "release_title": "Introducing Brad Mehldau",
+    "artist": "Brad Mehldau",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Juniors Blues": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Kenny Barron\u0000Ancestry": {
+    "path": "data/covers/album-6e8f02d5-91ca-4b88-8bb3-f9055321de88.jpg",
+    "release_id": "6e8f02d5-91ca-4b88-8bb3-f9055321de88",
+    "release_title": "Ancestry",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Paul Bley\u0000Bebopbebopbebopbebop": {
+    "path": "data/covers/album-82b35d24-0559-43f4-ad15-2ed3510e4603.jpg",
+    "release_id": "82b35d24-0559-43f4-ad15-2ed3510e4603",
+    "release_title": "Bebopbebopbebopbebop",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000I Remember You": {
+    "path": "data/covers/album-0e13b73e-a2d9-42fe-a780-ad04ae7c4f83.jpg",
+    "release_id": "0e13b73e-a2d9-42fe-a780-ad04ae7c4f83",
+    "release_title": "I Remember You",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Empathy  A Simple Matter of Conviction": {
+    "path": "data/covers/album-04952e8d-df5f-41e6-9783-3c9b11eb32eb.jpg",
+    "release_id": "04952e8d-df5f-41e6-9783-3c9b11eb32eb",
+    "release_title": "Empathy / A Simple Matter of Conviction",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Music in the Key of Clark": {
+    "path": "data/covers/album-itunes-9b50c8790c18.jpg",
+    "source": "itunes",
+    "collection_id": 1438078200,
+    "release_title": "Music in the Key of Clark",
+    "artist": "John Hicks",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Up Front": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Ray Brown\u0000Intensive Care": {
+    "path": "data/covers/album-acf9ac3d-3285-41e7-af52-369361e9b9a9.jpg",
+    "release_id": "acf9ac3d-3285-41e7-af52-369361e9b9a9",
+    "release_title": "Intensive Care",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bobby Timmons\u0000Sweet and Soulful Sounds  Born to be Blue": {
+    "path": null,
+    "source": "not-found"
+  },
+  "John Hicks\u0000Inc 1": {
+    "path": "data/covers/album-535c1f9e-e6b1-4709-b5d5-60f780275126.jpg",
+    "release_id": "535c1f9e-e6b1-4709-b5d5-60f780275126",
+    "release_title": "Inc. 1",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Super Session": {
+    "path": "data/covers/album-itunes-56838ac14194.jpg",
+    "source": "itunes",
+    "collection_id": 286769951,
+    "release_title": "Super Session",
+    "artist": "Tommy Flanagan",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000The London House Sessions": {
+    "path": "data/covers/album-itunes-8c86842bc955.jpg",
+    "source": "itunes",
+    "collection_id": 1465833751,
+    "release_title": "The London House Sessions (Live)",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 0.894
+  },
+  "Hank Jones\u0000The Trio": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bill Evans\u0000Live In Paris 1972 Vol 2": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Junior Mance\u0000Blues Ballads and a Train": {
+    "path": "data/covers/album-itunes-406b97d70171.jpg",
+    "source": "itunes",
+    "collection_id": 1617649204,
+    "release_title": "Blues, Ballads and ‘a’ Train (Live)",
+    "artist": "Junior Mance",
+    "match_score": 0.909
+  },
+  "Bud Powell\u0000The Best of Bud Powell 194462 Vol 1": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Wynton Kelly\u0000Takin Charge": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Tommy Flanagan\u0000Lets Play the Music of Thad Jones": {
+    "path": "data/covers/album-e0cd8061-3127-4c38-bb96-10406f6e803d.jpg",
+    "release_id": "e0cd8061-3127-4c38-bb96-10406f6e803d",
+    "release_title": "Let's Play the Music of Thad Jones",
+    "source": "cover-art-archive",
+    "match_score": 0.983
+  },
+  "Tommy Flanagan\u0000Positive Intensity": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Sonny Clark\u0000Standards": {
+    "path": "data/covers/album-itunes-b2d19c799570.jpg",
+    "source": "itunes",
+    "collection_id": 1443163053,
+    "release_title": "Standards",
+    "artist": "Sonny Clark",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000Ruby My Dear": {
+    "path": "data/covers/album-itunes-0b56b8cddd9e.jpg",
+    "source": "itunes",
+    "collection_id": 159333360,
+    "release_title": "Ruby My Dear",
+    "artist": "Kenny Drew",
+    "match_score": 1.0
+  },
+  "Herbie Nichols\u0000The Complete Blue Note Recordings": {
+    "path": "data/covers/album-itunes-dfff059bc3e8.jpg",
+    "source": "itunes",
+    "collection_id": 716233595,
+    "release_title": "The Complete Blue Note Recordings of Herbie Nichols",
+    "artist": "Herbie Nichols",
+    "match_score": 0.763
+  },
+  "Kenny Barron\u0000Live in Japan 2003": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Red Garland\u0000Misty Red": {
+    "path": "data/covers/album-itunes-bb8277309037.jpg",
+    "source": "itunes",
+    "collection_id": 1608019405,
+    "release_title": "Misty Red",
+    "artist": "Red Garland",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000The Complete Bud Powell on Verve": {
+    "path": "data/covers/album-c5a8b2e5-d004-4b81-92d3-fb22e6d767b2.jpg",
+    "release_id": "c5a8b2e5-d004-4b81-92d3-fb22e6d767b2",
+    "release_title": "The Complete Bud Powell on Verve",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000The Sermon": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Ahmad Jamal\u0000The Complete 1961 Alhambra Performances": {
+    "path": "data/covers/album-6e27b20f-48a6-4fad-8ee8-990450b4ea39.jpg",
+    "release_id": "6e27b20f-48a6-4fad-8ee8-990450b4ea39",
+    "release_title": "The Complete 1961 Alhambra Performances",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000McCoy Tyner plays John Coltrane Live at the Village Vanguard": {
+    "path": "data/covers/album-itunes-66a9d71db552.jpg",
+    "source": "itunes",
+    "collection_id": 1443089119,
+    "release_title": "McCoy Tyner Plays John Coltrane - Live at the Village Vanguard",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Ahmad Jamal Eight Classic Albums": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Tommy Flanagan\u0000Sea Changes": {
+    "path": "data/covers/album-240090cc-e1d7-4f92-b278-14b123c033ad.jpg",
+    "release_id": "240090cc-e1d7-4f92-b278-14b123c033ad",
+    "release_title": "Sea Changes",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000A Billy Strayhorn Songbook Something to Live For": {
+    "path": "data/covers/album-d90e1b59-8412-45c9-be34-2033c46d8950.jpg",
+    "release_id": "d90e1b59-8412-45c9-be34-2033c46d8950",
+    "release_title": "A Billy Strayhorn Songbook: Something to Live For",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Here and Now": {
+    "path": "data/covers/album-itunes-763f2baa91f5.jpg",
+    "source": "itunes",
+    "collection_id": 1769231723,
+    "release_title": "Here And Now",
+    "artist": "Hampton Hawes Trio",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000Live at Scullers": {
+    "path": "data/covers/album-d72f6281-0a3b-416f-b93f-0ae7fb2d1d8c.jpg",
+    "release_id": "d72f6281-0a3b-416f-b93f-0ae7fb2d1d8c",
+    "release_title": "Live at Scullers",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000Wanton Spirit": {
+    "path": "data/covers/album-itunes-c6b9d75cae15.jpg",
+    "source": "itunes",
+    "collection_id": 1442954773,
+    "release_title": "Wanton Spirit",
+    "artist": "Kenny Barron",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000The Cure": {
+    "path": "data/covers/album-e899f6e0-9e38-4789-982c-da88d4cd6e68.jpg",
+    "release_id": "e899f6e0-9e38-4789-982c-da88d4cd6e68",
+    "release_title": "The Cure",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Whisper Not": {
+    "path": "data/covers/album-8ed8f8b1-a39d-4140-998c-4d6793eea330.jpg",
+    "release_id": "8ed8f8b1-a39d-4140-998c-4d6793eea330",
+    "release_title": "Whisper Not",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Song of Delilah  The Music of Victor Young": {
+    "path": "data/covers/album-3248487b-a35c-4ac6-a060-4ad314b2d63a.jpg",
+    "release_id": "3248487b-a35c-4ac6-a060-4ad314b2d63a",
+    "release_title": "Song of Delilah - The Music of Victor Young",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Red Garland\u0000Blues in the Night": {
+    "path": "data/covers/album-itunes-65623e2a13f2.jpg",
+    "source": "itunes",
+    "collection_id": 1444172110,
+    "release_title": "Blues In the Night (Remastered)",
+    "artist": "Red Garland",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000The Complete Black Lion and Vogue Recordings of Thelonious Monk": {
+    "path": "data/covers/album-b3d8cb0e-f18a-4d2f-aa43-964926eb7d4c.jpg",
+    "release_id": "b3d8cb0e-f18a-4d2f-aa43-964926eb7d4c",
+    "release_title": "The Complete Black Lion and Vogue Recordings of Thelonious Monk",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000West of 5th": {
+    "path": "data/covers/album-c4f2bd76-76c0-40a9-85f1-78d213cfa930.jpg",
+    "release_id": "c4f2bd76-76c0-40a9-85f1-78d213cfa930",
+    "release_title": "West of 5th",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000We Get Requests": {
+    "path": "data/covers/album-itunes-2287a5b98a88.jpg",
+    "source": "itunes",
+    "collection_id": 1443078246,
+    "release_title": "We Get Requests",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Everybody Digs Bill Evans": {
+    "path": "data/covers/album-itunes-0d194104d890.jpg",
+    "source": "itunes",
+    "collection_id": 1559832757,
+    "release_title": "Everybody Still Digs Bill Evans",
+    "artist": "Bill Evans",
+    "match_score": 0.893
+  },
+  "Hank Jones\u0000The Touch": {
+    "path": "data/covers/album-itunes-f38eee4d77fd.jpg",
+    "source": "itunes",
+    "collection_id": 1587371708,
+    "release_title": "The Touch",
+    "artist": "Hank Jones",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Trio 64": {
+    "path": "data/covers/album-itunes-57abc49da6e8.jpg",
+    "source": "itunes",
+    "collection_id": 1444196755,
+    "release_title": "Trio 64",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Lund 1975 Helsinki 1970": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Wynton Kelly\u0000Full View": {
+    "path": "data/covers/album-91d3311e-4e43-42f5-8241-52c166b779c7.jpg",
+    "release_id": "91d3311e-4e43-42f5-8241-52c166b779c7",
+    "release_title": "Full View",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Live In Paris 1972 Vol 3": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Red Garland\u0000Bright and Breezy": {
+    "path": "data/covers/album-itunes-c4ab2832fe4a.jpg",
+    "source": "itunes",
+    "collection_id": 1741389773,
+    "release_title": "Bright And Breezy",
+    "artist": "The Red Garland Trio",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000For Real": {
+    "path": null,
+    "source": "not-found"
+  },
+  "McCoy Tyner\u0000Bon Voyage": {
+    "path": "data/covers/album-itunes-99cf853f27c6.jpg",
+    "source": "itunes",
+    "collection_id": 633786055,
+    "release_title": "Bon Voyage",
+    "artist": "McCoy Tyner Trio",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000The Floating Jazz Festival Trio 1995": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Ahmad Jamal\u0000The Complete Ahmad Jamal Trio Argo Sessions 195662": {
+    "path": "data/covers/album-ae408343-c9f3-41b6-a529-83c63fc429cb.jpg",
+    "release_id": "ae408343-c9f3-41b6-a529-83c63fc429cb",
+    "release_title": "The Complete Ahmad Jamal Trio Argo Sessions 1956-62",
+    "source": "cover-art-archive",
+    "match_score": 0.989
+  },
+  "McCoy Tyner\u0000Time for Tyner": {
+    "path": "data/covers/album-itunes-091ab7278622.jpg",
+    "source": "itunes",
+    "collection_id": 1443282060,
+    "release_title": "Time for Tyner",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Wynton Kelly\u0000Blues on Purpose": {
+    "path": "data/covers/album-6e384709-5e15-4986-8cd8-eb38b90f8294.jpg",
+    "release_id": "6e384709-5e15-4986-8cd8-eb38b90f8294",
+    "release_title": "Blues on Purpose",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Trident": {
+    "path": "data/covers/album-itunes-402b29b3e219.jpg",
+    "source": "itunes",
+    "collection_id": 1442917393,
+    "release_title": "Trident",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Green Leaves of Summer": {
+    "path": "data/covers/album-itunes-cd2330a4bdeb.jpg",
+    "source": "itunes",
+    "collection_id": 1538070936,
+    "release_title": "The Green Leaves Of Summer",
+    "artist": "Hampton Hawes",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Milestones": {
+    "path": "data/covers/album-itunes-b6f1d6d6597e.jpg",
+    "source": "itunes",
+    "collection_id": 1471598662,
+    "release_title": "Milestones",
+    "artist": "Junior Mance Trio",
+    "match_score": 1.0
+  },
+  "Abdullah Ibrahim\u0000African Magic": {
+    "path": "data/covers/album-itunes-69dc481a9c20.jpg",
+    "source": "itunes",
+    "collection_id": 310156387,
+    "release_title": "African Magic",
+    "artist": "Abdullah Ibrahim",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Eclypso": {
+    "path": "data/covers/album-itunes-ab147c6f4923.jpg",
+    "source": "itunes",
+    "collection_id": 286484530,
+    "release_title": "Eclypso",
+    "artist": "Tommy Flanagan",
+    "match_score": 1.0
+  },
+  "Stanley Cowell\u0000Live at Copenhagen Jazz House": {
+    "path": null,
+    "source": "not-found"
+  },
+  "McCoy Tyner\u0000Inception  Reaching Fourth": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Kenny Drew\u0000Kenny Drew and His Progressive Piano": {
+    "path": "data/covers/album-itunes-e918e802e1fb.jpg",
+    "source": "itunes",
+    "collection_id": 1443860918,
+    "release_title": "Kenny Drew and His Progressive Piano",
+    "artist": "Kenny Drew",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Live at Open Theater East": {
+    "path": "data/covers/album-3007b9aa-6e13-4fee-8156-298efadf2240.jpg",
+    "release_id": "3007b9aa-6e13-4fee-8156-298efadf2240",
+    "release_title": "Live at Open Theater East",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Walking The Line": {
+    "path": "data/covers/album-da49024e-7bbc-4c2a-bb57-a3d14684ba44.jpg",
+    "release_id": "da49024e-7bbc-4c2a-bb57-a3d14684ba44",
+    "release_title": "Walking the Line",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Seven Classic Albums": {
+    "path": null,
+    "source": "not-found"
+  },
+  "John Hicks\u0000Newklear Music": {
+    "path": "data/covers/album-ac3ed6b0-4ce6-4525-9eba-5a3283d867ba.jpg",
+    "release_id": "ac3ed6b0-4ce6-4525-9eba-5a3283d867ba",
+    "release_title": "Newklear Music",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000Bop Redux  Groovin High": {
+    "path": "data/covers/album-itunes-cb45f9a4ca69.jpg",
+    "source": "itunes",
+    "collection_id": 1440234628,
+    "release_title": "Bop Redux / Groovin' High",
+    "artist": "Hank Jones",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000The Soulful Piano of Junior Mance": {
+    "path": "data/covers/album-43783aff-1a03-4173-a560-9d57c5bc677a.jpg",
+    "release_id": "43783aff-1a03-4173-a560-9d57c5bc677a",
+    "release_title": "The Soulful Piano of Junior Mance",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000Howard McGhee  Introducing The Kenny Drew Trio": {
+    "path": "data/covers/album-0424aedc-b314-4b01-ba78-d1e2049d2db1.jpg",
+    "release_id": "0424aedc-b314-4b01-ba78-d1e2049d2db1",
+    "release_title": "Howard McGhee / Introducing The Kenny Drew Trio",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Stanley Cowell\u0000Bright Passion": {
+    "path": "data/covers/album-itunes-99b390c0ac18.jpg",
+    "source": "itunes",
+    "collection_id": 160758094,
+    "release_title": "Bright Passion",
+    "artist": "Stanley Cowell",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Beyond Expectations": {
+    "path": "data/covers/album-d78d539e-2257-41d0-8713-d1e79c29c92b.jpg",
+    "release_id": "d78d539e-2257-41d0-8713-d1e79c29c92b",
+    "release_title": "Beyond Expectations",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000A Jazz Hour With Bill Evans Autumn Leaves": {
+    "path": "data/covers/album-fac42efe-cede-44e5-9d63-204bbe0c8eaf.jpg",
+    "release_id": "fac42efe-cede-44e5-9d63-204bbe0c8eaf",
+    "release_title": "A Jazz Hour With Bill Evans: Autumn Leaves",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Tristeza on Piano": {
+    "path": "data/covers/album-itunes-7fde397f8da5.jpg",
+    "source": "itunes",
+    "collection_id": 898277316,
+    "release_title": "Tristeza On Piano",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000Thelonious": {
+    "path": "data/covers/album-itunes-656f971b7595.jpg",
+    "source": "itunes",
+    "collection_id": 1442882689,
+    "release_title": "Thelonious Monk",
+    "artist": "Thelonious Monk Trio",
+    "match_score": 0.8
+  },
+  "Hampton Hawes\u0000Bird Song": {
+    "path": "data/covers/album-02152879-b6c7-4252-aedf-53a76d6abf2b.jpg",
+    "release_id": "02152879-b6c7-4252-aedf-53a76d6abf2b",
+    "release_title": "Bird Song",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000Have You Met This Jones": {
+    "path": "data/covers/album-itunes-c4ab46dc4617.jpg",
+    "source": "itunes",
+    "collection_id": 873097291,
+    "release_title": "Have You Met This Jones?",
+    "artist": "The Hank Jones Trio",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000My Foolish Heart Live at Montreux": {
+    "path": "data/covers/album-532a6fba-79c9-48a7-af3d-9d00e721ba1f.jpg",
+    "release_id": "532a6fba-79c9-48a7-af3d-9d00e721ba1f",
+    "release_title": "My Foolish Heart: Live at Montreux",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000The Perfect Set": {
+    "path": "data/covers/album-ff88e65a-1a94-44d9-be76-410b03937eb1.jpg",
+    "release_id": "ff88e65a-1a94-44d9-be76-410b03937eb1",
+    "release_title": "The Perfect Set",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Last Waltz": {
+    "path": "data/covers/album-bd2f3242-278a-4bd9-9513-c3b9274a0d05.jpg",
+    "release_id": "bd2f3242-278a-4bd9-9513-c3b9274a0d05",
+    "release_title": "The Last Waltz",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Reaching Fourth": {
+    "path": "data/covers/album-itunes-af69ae17d4af.jpg",
+    "source": "itunes",
+    "collection_id": 1466987413,
+    "release_title": "Reaching Fourth",
+    "artist": "McCoy Tyner Trio",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Three Sundays in the Seventies Live at the Left Bank": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Kenny Drew\u0000Your Soft Eyes": {
+    "path": "data/covers/album-itunes-42a9b1df340e.jpg",
+    "source": "itunes",
+    "collection_id": 305900119,
+    "release_title": "Your Soft Eyes",
+    "artist": "Kenny Drew Trio",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Tranquility": {
+    "path": "data/covers/album-itunes-21433f87ae61.jpg",
+    "source": "itunes",
+    "collection_id": 1442926993,
+    "release_title": "Tranquility",
+    "artist": "Ahmad Jamal",
+    "match_score": 1.0
+  },
+  "Red Garland\u0000At the Prelude Volume 1": {
+    "path": "data/covers/album-itunes-d9857e1cb35f.jpg",
+    "source": "itunes",
+    "collection_id": 1442900603,
+    "release_title": "At the Prelude, Vol. 1",
+    "artist": "Red Garland",
+    "match_score": 0.769
+  },
+  "Herbie Nichols\u0000Complete Studio Master Takes": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bud Powell\u0000The Best of Bud Powell on Verve": {
+    "path": "data/covers/album-itunes-f8cb30f93254.jpg",
+    "source": "itunes",
+    "collection_id": 1444049048,
+    "release_title": "The Best of Bud Powell On Verve",
+    "artist": "Bud Powell",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Live at Art DLugoffs Top of the Gate": {
+    "path": "data/covers/album-4eb62645-64e3-4ad7-9c2c-f1fdab35f6ee.jpg",
+    "release_id": "4eb62645-64e3-4ad7-9c2c-f1fdab35f6ee",
+    "release_title": "Live at Art D'Lugoff's Top of the Gate",
+    "source": "cover-art-archive",
+    "match_score": 0.97
+  },
+  "Teddy Wilson\u0000Three Little Words": {
+    "path": "data/covers/album-a09a5bba-4717-42c0-8cee-9f769ae260dd.jpg",
+    "release_id": "a09a5bba-4717-42c0-8cee-9f769ae260dd",
+    "release_title": "Three Little Words",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000The Jazz Soul of Oscar Peterson": {
+    "path": "data/covers/album-itunes-0b2e7ef34c52.jpg",
+    "source": "itunes",
+    "collection_id": 1443155598,
+    "release_title": "The Jazz Soul of Oscar Peterson",
+    "artist": "Oscar Peterson",
+    "match_score": 1.0
+  },
+  "Paul Bley\u0000My Standard": {
+    "path": "data/covers/album-itunes-ec948a4f464b.jpg",
+    "source": "itunes",
+    "collection_id": 159474096,
+    "release_title": "My Standard",
+    "artist": "Paul Bley",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Time Remembered": {
+    "path": "data/covers/album-itunes-68b232086617.jpg",
+    "source": "itunes",
+    "collection_id": 1445755677,
+    "release_title": "Time Remembered (Remastered)",
+    "artist": "Bill Evans Trio",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000The Three": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bill Evans\u0000The Complete Riverside Recordings": {
+    "path": "data/covers/album-itunes-1d4c5267aee6.jpg",
+    "source": "itunes",
+    "collection_id": 1666413835,
+    "release_title": "The Complete Riverside Recordings (Remastered 1987)",
+    "artist": "Bill Evans",
+    "match_score": 0.921
+  },
+  "Ray Brown\u0000Walk On": {
+    "path": "data/covers/album-itunes-74b5d951e07f.jpg",
+    "source": "itunes",
+    "collection_id": 80671451,
+    "release_title": "Walk On",
+    "artist": "Ray Brown Trio",
+    "match_score": 1.0
+  },
+  "Bobby Timmons\u0000ChunKing": {
+    "path": "data/covers/album-4509fdd6-ab7d-4462-8597-859b938935ab.jpg",
+    "release_id": "4509fdd6-ab7d-4462-8597-859b938935ab",
+    "release_title": "Chun-King",
+    "source": "cover-art-archive",
+    "match_score": 0.941
+  },
+  "Tommy Flanagan\u0000The Tommy Flanagan Tokyo Recital": {
+    "path": "data/covers/album-024592ab-c9fd-41cf-9366-25d46df3c9c7.jpg",
+    "release_id": "024592ab-c9fd-41cf-9366-25d46df3c9c7",
+    "release_title": "The Tommy Flanagan Tokyo Recital",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Jazzhouse": {
+    "path": "data/covers/album-itunes-01493c249b87.jpg",
+    "source": "itunes",
+    "collection_id": 1443604915,
+    "release_title": "Jazzhouse",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000High in the Sky": {
+    "path": "data/covers/album-itunes-5d79e5bfc388.jpg",
+    "source": "itunes",
+    "collection_id": 463751415,
+    "release_title": "High In The Sky (Remastered)",
+    "artist": "Hampton Hawes Trio",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000Modern Jazz Archive Thelonious Monk": {
+    "path": null,
+    "source": "not-found"
+  },
+  "McCoy Tyner\u0000Counterpoints Live in Tokyo": {
+    "path": "data/covers/album-itunes-148f6f8bf333.jpg",
+    "source": "itunes",
+    "collection_id": 1442359906,
+    "release_title": "Counterpoints: Live In Tokyo",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000At the Montreux Jazz Festival": {
+    "path": "data/covers/album-itunes-eff32c1cb584.jpg",
+    "source": "itunes",
+    "collection_id": 1425178671,
+    "release_title": "Bill Evans - At The Montreux Jazz Festival",
+    "artist": "Bill Evans",
+    "match_score": 0.82
+  },
+  "Sonny Clark\u0000Blues in the Night": {
+    "path": "data/covers/album-itunes-296e85760f4b.jpg",
+    "source": "itunes",
+    "collection_id": 1436732085,
+    "release_title": "Blues In The Night",
+    "artist": "Sonny Clark",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Ahmad Jamals Alhambra": {
+    "path": "data/covers/album-0e48888a-d7f4-4d61-b9a5-00e023411dac.jpg",
+    "release_id": "0e48888a-d7f4-4d61-b9a5-00e023411dac",
+    "release_title": "Ahmad Jamal's Alhambra",
+    "source": "cover-art-archive",
+    "match_score": 0.977
+  },
+  "Bill Evans\u0000His Last Concert in Germany": {
+    "path": "data/covers/album-3168814e-5e05-496d-bc7f-9060850d8c0f.jpg",
+    "release_id": "3168814e-5e05-496d-bc7f-9060850d8c0f",
+    "release_title": "His Last Concert in Germany",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000At the Blue Note The Complete Recordings": {
+    "path": "data/covers/album-itunes-cd4eb8ec1653.jpg",
+    "source": "itunes",
+    "collection_id": 1443285007,
+    "release_title": "At the Blue Note: The Complete Recordings",
+    "artist": "Keith Jarrett",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Nadja": {
+    "path": "data/covers/album-itunes-cec111850d7e.jpg",
+    "source": "itunes",
+    "collection_id": 1541160312,
+    "release_title": "Nadja",
+    "artist": "Junior Mance",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000Bouncing with Bud": {
+    "path": "data/covers/album-itunes-1041a6882d5d.jpg",
+    "source": "itunes",
+    "collection_id": 272787161,
+    "release_title": "Bouncing With Bud",
+    "artist": "Bud Powell Trio",
+    "match_score": 1.0
+  },
+  "Wynton Kelly\u0000Six Classic Albums": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bobby Timmons\u0000Holiday Soul": {
+    "path": "data/covers/album-itunes-4e6e3b4f6bd3.jpg",
+    "source": "itunes",
+    "collection_id": 1443227005,
+    "release_title": "Holiday Soul",
+    "artist": "Bobby Timmons",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000The Complete Genius": {
+    "path": "data/covers/album-84c56d64-c1b7-42c2-b416-08d322f208f3.jpg",
+    "release_id": "84c56d64-c1b7-42c2-b416-08d322f208f3",
+    "release_title": "The Complete Genius",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000At the Village Vanguard": {
+    "path": "data/covers/album-itunes-073a9d894693.jpg",
+    "source": "itunes",
+    "collection_id": 1443238693,
+    "release_title": "At the Village Vanguard (Remastered) [Live]",
+    "artist": "Bill Evans Trio",
+    "match_score": 0.884
+  },
+  "Oscar Peterson\u0000Oscar Peterson plays My Fair Lady and the Music from Fiorello": {
+    "path": "data/covers/album-764f2975-f1da-4150-b6ad-0f16dcb91653.jpg",
+    "release_id": "764f2975-f1da-4150-b6ad-0f16dcb91653",
+    "release_title": "Oscar Peterson plays My Fair Lady and the Music from Fiorello!",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Wynton Kelly\u0000Autumn Leaves": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bobby Timmons\u0000The Riverside Albums Collection": {
+    "path": "data/covers/album-1cb02c2d-081c-4fbf-8845-fa9125675b38.jpg",
+    "release_id": "1cb02c2d-081c-4fbf-8845-fa9125675b38",
+    "release_title": "The Riverside Albums Collection",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Emerald City Nights Live At The Penthouse 19651966": {
+    "path": "data/covers/album-2f797426-aacc-4ffd-a446-2662de45ae34.jpg",
+    "release_id": "2f797426-aacc-4ffd-a446-2662de45ae34",
+    "release_title": "Emerald City Nights - Live at the Penthouse 1965-1966",
+    "source": "cover-art-archive",
+    "match_score": 0.989
+  },
+  "Keith Jarrett\u0000Up for It": {
+    "path": "data/covers/album-42694dad-0ceb-41e6-b73c-e19f7e6a3f70.jpg",
+    "release_id": "42694dad-0ceb-41e6-b73c-e19f7e6a3f70",
+    "release_title": "Up for It",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Second Trio": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Paul Bley\u0000Notes on Ornette": {
+    "path": "data/covers/album-itunes-ec29c6547aa8.jpg",
+    "source": "itunes",
+    "collection_id": 160815160,
+    "release_title": "Notes On Ornette",
+    "artist": "Paul Bley",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000In Tokyo 1964": {
+    "path": "data/covers/album-7d1bc7dc-25da-4ade-8388-65589d680872.jpg",
+    "release_id": "7d1bc7dc-25da-4ade-8388-65589d680872",
+    "release_title": "In Tokyo, 1964",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Brad Mehldau\u0000Brad Mehldau Trio Live": {
+    "path": "data/covers/album-2549e8cf-d8ef-4ea2-a41d-329fedd42f18.jpg",
+    "release_id": "2549e8cf-d8ef-4ea2-a41d-329fedd42f18",
+    "release_title": "Brad Mehldau Trio Live",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Complete Live at the Pershing Lounge 1958": {
+    "path": "data/covers/album-fb38b967-5942-42ba-b667-03caa42eebbb.jpg",
+    "release_id": "fb38b967-5942-42ba-b667-03caa42eebbb",
+    "release_title": "Complete Live at the Pershing Lounge 1958",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000If You Could See Me Now": {
+    "path": "data/covers/album-itunes-875057eb8679.jpg",
+    "source": "itunes",
+    "collection_id": 158933183,
+    "release_title": "If You Could See Me Now",
+    "artist": "Kenny Drew",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Oscar Peterson in Russia": {
+    "path": "data/covers/album-itunes-80ae40cf417c.jpg",
+    "source": "itunes",
+    "collection_id": 1442793566,
+    "release_title": "Oscar Peterson In Russia (Live)",
+    "artist": "Oscar Peterson",
+    "match_score": 0.906
+  },
+  "Kenny Barron\u0000New York Attitude": {
+    "path": "data/covers/album-504e4ab4-1405-4ba7-b5b5-9145d31f462b.jpg",
+    "release_id": "504e4ab4-1405-4ba7-b5b5-9145d31f462b",
+    "release_title": "New York Attitude",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000The Amazing Bud Powell Vol 13": {
+    "path": "data/covers/album-itunes-a8429c95630e.jpg",
+    "source": "itunes",
+    "collection_id": 1754457296,
+    "release_title": "The Amazing Bud Powell (Vol. 2)",
+    "artist": "Bud Powell",
+    "match_score": 0.857
+  },
+  "Cedar Walton\u0000Midnight Waltz": {
+    "path": null,
+    "source": "not-found"
+  },
+  "John Hicks\u0000On the Wings of an Eagle": {
+    "path": "data/covers/album-d0a1e626-b908-4f8b-ba40-8d302498778d.jpg",
+    "release_id": "d0a1e626-b908-4f8b-ba40-8d302498778d",
+    "release_title": "On the Wings of an Eagle",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Trio  Sextet": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Tommy Flanagan\u0000Jazz Poet": {
+    "path": "data/covers/album-itunes-7a12e4928051.jpg",
+    "source": "itunes",
+    "collection_id": 1543060336,
+    "release_title": "Jazz Poet",
+    "artist": "Tommy Flanagan",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000Paris Sessions": {
+    "path": "data/covers/album-717c8e73-cd82-475a-9b5b-f59ca36a6c74.jpg",
+    "release_id": "717c8e73-cd82-475a-9b5b-f59ca36a6c74",
+    "release_title": "Paris Sessions",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Afro Blue": {
+    "path": "data/covers/album-itunes-0daa31fb6be8.jpg",
+    "source": "itunes",
+    "collection_id": 1683191363,
+    "release_title": "Afro Blue",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Hampton Hawes Trio Vol 1": {
+    "path": "data/covers/album-itunes-bb8b3a573777.jpg",
+    "source": "itunes",
+    "collection_id": 1532292611,
+    "release_title": "Hampton Hawes Trio, Vol. 1",
+    "artist": "Hampton Hawes Trio",
+    "match_score": 0.857
+  },
+  "Oscar Peterson\u0000Night Train": {
+    "path": "data/covers/album-itunes-59d99e9a5f49.jpg",
+    "source": "itunes",
+    "collection_id": 1440761118,
+    "release_title": "Night Train",
+    "artist": "Oscar Peterson",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000One Flight Down": {
+    "path": "data/covers/album-itunes-2c41726720b1.jpg",
+    "source": "itunes",
+    "collection_id": 1438341935,
+    "release_title": "One Flight Down",
+    "artist": "Cedar Walton",
+    "match_score": 1.0
+  },
+  "Herbie Nichols\u0000Herbie Nichols Trio": {
+    "path": "data/covers/album-itunes-e1e17f20d86c.jpg",
+    "source": "itunes",
+    "collection_id": 1472631980,
+    "release_title": "Herbie Nichols Trio",
+    "artist": "Herbie Nichols Trio",
+    "match_score": 1.0
+  },
+  "Chick Corea\u0000Chick Corea Akoustic Band": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Tommy Flanagan\u0000Sunset and the Mockingbird": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Kenny Barron\u0000The Moment": {
+    "path": "data/covers/album-88ddc4df-6baf-4299-8a2f-037bdd744fcb.jpg",
+    "release_id": "88ddc4df-6baf-4299-8a2f-037bdd744fcb",
+    "release_title": "The Moment",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bobby Timmons\u0000Easy Does It": {
+    "path": "data/covers/album-itunes-e51e2275b3cd.jpg",
+    "source": "itunes",
+    "collection_id": 1524348907,
+    "release_title": "Easy Does It",
+    "artist": "Bobby Timmons Trio",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Tribute": {
+    "path": "data/covers/album-daeb48b8-29e5-4fa9-a2bf-35cc65adeaa1.jpg",
+    "release_id": "daeb48b8-29e5-4fa9-a2bf-35cc65adeaa1",
+    "release_title": "Tribute",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Standards Live": {
+    "path": "data/covers/album-09e9d586-92e8-342a-8d8d-547b506d291e.jpg",
+    "release_id": "09e9d586-92e8-342a-8d8d-547b506d291e",
+    "release_title": "Standards Live",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Half Moon Bay": {
+    "path": "data/covers/album-itunes-3acd85850c05.jpg",
+    "source": "itunes",
+    "collection_id": 1444052220,
+    "release_title": "Half Moon Bay (Live)",
+    "artist": "Bill Evans",
+    "match_score": 0.839
+  },
+  "Stanley Cowell\u0000Sienna": {
+    "path": "data/covers/album-itunes-c58cc40414bd.jpg",
+    "source": "itunes",
+    "collection_id": 159617110,
+    "release_title": "Sienna",
+    "artist": "Stanley Cowell",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Tokyo 96": {
+    "path": "data/covers/album-73841c64-b682-47b1-ab42-e96109e957bb.jpg",
+    "release_id": "73841c64-b682-47b1-ab42-e96109e957bb",
+    "release_title": "Tokyo '96",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Live The Champslyses 1965 Pleyel 1966": {
+    "path": "data/covers/album-a55bd369-3cb1-42f0-af09-0ac292c081df.jpg",
+    "release_id": "a55bd369-3cb1-42f0-af09-0ac292c081df",
+    "release_title": "Live: The Champs-Élysées 1965, Pleyel 1966",
+    "source": "cover-art-archive",
+    "match_score": 0.971
+  },
+  "Tommy Flanagan\u0000Plays the Music of Harold Arlen": {
+    "path": "data/covers/album-itunes-22cd8666e10a.jpg",
+    "source": "itunes",
+    "collection_id": 1244962866,
+    "release_title": "Plays the Music of Harold Arlen",
+    "artist": "Tommy Flanagan",
+    "match_score": 1.0
+  },
+  "Teddy Wilson\u0000Live at Santa Tecla": {
+    "path": "data/covers/album-4db1a688-f872-462f-ae75-595ab62c2740.jpg",
+    "release_id": "4db1a688-f872-462f-ae75-595ab62c2740",
+    "release_title": "Live at Santa Tecla",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Charmed Circle Live at the Keystone Korner": {
+    "path": "data/covers/album-itunes-396cde03034b.jpg",
+    "source": "itunes",
+    "collection_id": 1437940683,
+    "release_title": "Charmed Circle (Recorded Live at the Keystone Korner in August, 1979)",
+    "artist": "Cedar Walton",
+    "match_score": 0.76
+  },
+  "Dave Holland\u0000The Oracle": {
+    "path": "data/covers/album-f67cb68b-e9e9-3ef8-9ca9-08726eed24c4.jpg",
+    "release_id": "f67cb68b-e9e9-3ef8-9ca9-08726eed24c4",
+    "release_title": "The Oracle",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000The Sound Of The Trio": {
+    "path": "data/covers/album-itunes-f8c05c469c4f.jpg",
+    "source": "itunes",
+    "collection_id": 1442285098,
+    "release_title": "The Sound of the Trio (Live) [Expanded Edition]",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 0.839
+  },
+  "Tommy Flanagan\u0000Giant Steps In Memory of John Coltrane": {
+    "path": "data/covers/album-0d29b3ba-b474-4ef6-bef8-71df8b956b22.jpg",
+    "release_id": "0d29b3ba-b474-4ef6-bef8-71df8b956b22",
+    "release_title": "Giant Steps: In Memory of John Coltrane",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000Kenny Drew Trio": {
+    "path": "data/covers/album-bf31f2c3-e26c-46a0-9636-e4cd04f0ce6a.jpg",
+    "release_id": "bf31f2c3-e26c-46a0-9636-e4cd04f0ce6a",
+    "release_title": "Kenny Drew Trio",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Some Other Time The Lost Session From the Black Forest": {
+    "path": "data/covers/album-itunes-6b2a203c1e5d.jpg",
+    "source": "itunes",
+    "collection_id": 1090257198,
+    "release_title": "Some Other Time: The Lost Session from the Black Forest",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000Impressions": {
+    "path": "data/covers/album-fb8285ad-d467-4913-85b6-bf73d89bb721.jpg",
+    "release_id": "fb8285ad-d467-4913-85b6-bf73d89bb721",
+    "release_title": "Impressions",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Remembering John": {
+    "path": "data/covers/album-86ef2c08-192c-495b-a100-cdd13c3ba2c2.jpg",
+    "release_id": "86ef2c08-192c-495b-a100-cdd13c3ba2c2",
+    "release_title": "Remembering John",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000You Must Believe in Spring": {
+    "path": "data/covers/album-itunes-a53b56f33494.jpg",
+    "source": "itunes",
+    "collection_id": 1613990570,
+    "release_title": "You Must Believe In Spring (Remastered 2022)",
+    "artist": "Bill Evans",
+    "match_score": 0.912
+  },
+  "Ahmad Jamal\u0000After Fajr": {
+    "path": "data/covers/album-itunes-2e3ee8860e7b.jpg",
+    "source": "itunes",
+    "collection_id": 1434406798,
+    "release_title": "After Fajr",
+    "artist": "Ahmad Jamal",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Somewhere Before The Atlantic Years 19681975": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Abdullah Ibrahim\u0000Round Midnight at the Montmartre": {
+    "path": "data/covers/album-a1fdea78-d00a-4032-9ba7-d6ff8ade0424.jpg",
+    "release_id": "a1fdea78-d00a-4032-9ba7-d6ff8ade0424",
+    "release_title": "Round Midnight at the Montmartre",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000Hank Jones Trio": {
+    "path": "data/covers/album-itunes-f634339b30ad.jpg",
+    "source": "itunes",
+    "collection_id": 296615124,
+    "release_title": "Hank Jones Trio",
+    "artist": "Hank Jones",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Setting Standards New York Sessions": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Oscar Peterson\u0000The Best of Oscar Peterson Trio": {
+    "path": "data/covers/album-f0847f6d-7a85-4a08-912b-d2c2d285764b.jpg",
+    "release_id": "f0847f6d-7a85-4a08-912b-d2c2d285764b",
+    "release_title": "The Best of Oscar Peterson Trio",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Yesterdays": {
+    "path": "data/covers/album-559606f8-a420-43cf-a3df-93f4b2c6048f.jpg",
+    "release_id": "559606f8-a420-43cf-a3df-93f4b2c6048f",
+    "release_title": "Yesterdays",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Happy Time": {
+    "path": "data/covers/album-b2add648-b905-428f-9beb-9caae83302c0.jpg",
+    "release_id": "b2add648-b905-428f-9beb-9caae83302c0",
+    "release_title": "Happy Time",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Walton Carter  DeJohnette": {
+    "path": "data/covers/album-880ff85f-62c2-480f-89a7-e3eb14670eed.jpg",
+    "release_id": "880ff85f-62c2-480f-89a7-e3eb14670eed",
+    "release_title": "Cedar Walton, Ron Carter, Jack DeJohnette",
+    "source": "cover-art-archive",
+    "match_score": 0.762
+  },
+  "John Hicks\u0000Is That So": {
+    "path": "data/covers/album-itunes-98e25c7530d7.jpg",
+    "source": "itunes",
+    "collection_id": 1520500354,
+    "release_title": "Is That So",
+    "artist": "John Hicks Trio",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Inside Out": {
+    "path": "data/covers/album-itunes-f592788f91c8.jpg",
+    "source": "itunes",
+    "collection_id": 1443598238,
+    "release_title": "Inside Out",
+    "artist": "Keith Jarrett Trio",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000Piano Night": {
+    "path": "data/covers/album-itunes-6177dd35404b.jpg",
+    "source": "itunes",
+    "collection_id": 737783815,
+    "release_title": "PIANO NIGHT (没後20周年特別企画)",
+    "artist": "Kenny Drew Trio",
+    "match_score": 0.88
+  },
+  "McCoy Tyner\u0000Supertrios": {
+    "path": "data/covers/album-itunes-5fee6c750311.jpg",
+    "source": "itunes",
+    "collection_id": 1532932362,
+    "release_title": "Supertrios",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000West Side Story  Oscar Peterson Plays Porgy  Bess": {
+    "path": "data/covers/album-4b5144be-5a28-4cba-9001-6f2bb0e475f5.jpg",
+    "release_id": "4b5144be-5a28-4cba-9001-6f2bb0e475f5",
+    "release_title": "West Side Story / Oscar Peterson Plays Porgy & Bess",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Paul Bley\u0000The Montreal Tapes": {
+    "path": "data/covers/album-d652f8d4-1f42-374b-8213-ef2d067e6d45.jpg",
+    "release_id": "d652f8d4-1f42-374b-8213-ef2d067e6d45",
+    "release_title": "The Montreal Tapes",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Live at Bubbas": {
+    "path": "data/covers/album-f1d59820-7b75-4c8b-83e8-54bf3f19c085.jpg",
+    "release_id": "f1d59820-7b75-4c8b-83e8-54bf3f19c085",
+    "release_title": "Live at Bubba’s",
+    "source": "cover-art-archive",
+    "match_score": 0.966
+  },
+  "McCoy Tyner\u0000Inception": {
+    "path": "data/covers/album-itunes-9abd2557a2af.jpg",
+    "source": "itunes",
+    "collection_id": 1890340978,
+    "release_title": "Inception",
+    "artist": "McCoy Tyner Trio",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Blues for Bud": {
+    "path": "data/covers/album-itunes-b693c2408bd3.jpg",
+    "source": "itunes",
+    "collection_id": 146736430,
+    "release_title": "Blues for Bud",
+    "artist": "Hampton Hawes",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000My Funny Valentine": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Kenny Barron\u0000Minor Blues": {
+    "path": "data/covers/album-ff33af5e-0f7d-4b6a-9f22-55cb602a920f.jpg",
+    "release_id": "ff33af5e-0f7d-4b6a-9f22-55cb602a920f",
+    "release_title": "Minor Blues",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000The Jazz Soul Of Oscar Peterson  Affinity": {
+    "path": "data/covers/album-99910ff0-159e-46b0-af12-765848b85d48.jpg",
+    "release_id": "99910ff0-159e-46b0-af12-765848b85d48",
+    "release_title": "The Jazz Soul of Oscar Peterson / Affinity",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Paul Bley\u0000Memoirs": {
+    "path": "data/covers/album-itunes-761e88fa57c4.jpg",
+    "source": "itunes",
+    "collection_id": 313935601,
+    "release_title": "Memoirs",
+    "artist": "Paul Bley",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Chicago Revisited": {
+    "path": "data/covers/album-95499ce3-f414-4bc8-b9e0-97e0db3a5209.jpg",
+    "release_id": "95499ce3-f414-4bc8-b9e0-97e0db3a5209",
+    "release_title": "Chicago Revisited",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Manhattan Afternoon": {
+    "path": "data/covers/album-itunes-b707743b91d3.jpg",
+    "source": "itunes",
+    "collection_id": 1718581970,
+    "release_title": "Manhattan Afternoon",
+    "artist": "Cedar Walton Trio",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Oscar Peterson Plays Porgy  Bess": {
+    "path": "data/covers/album-itunes-e53cdb89be74.jpg",
+    "source": "itunes",
+    "collection_id": 1443821689,
+    "release_title": "Oscar Peterson Plays Porgy & Bess",
+    "artist": "Oscar Peterson",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000Cedar": {
+    "path": "data/covers/album-itunes-d74c12623c07.jpg",
+    "source": "itunes",
+    "collection_id": 299958862,
+    "release_title": "Cedar",
+    "artist": "Cedar Walton Trio",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Hamburg 72": {
+    "path": "data/covers/album-a2cb0375-f708-4266-a177-5e1ba1c2aead.jpg",
+    "release_id": "a2cb0375-f708-4266-a177-5e1ba1c2aead",
+    "release_title": "Hamburg ’72",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Peace Piece and Other Pieces": {
+    "path": "data/covers/album-fc9c6912-7112-45a4-90cc-31205813e81f.jpg",
+    "release_id": "fc9c6912-7112-45a4-90cc-31205813e81f",
+    "release_title": "Peace Piece and Other Pieces",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000Green Chimneys": {
+    "path": "data/covers/album-itunes-f9807fbaa47c.jpg",
+    "source": "itunes",
+    "collection_id": 1716593629,
+    "release_title": "Green Chimneys",
+    "artist": "Kenny Barron Trio",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Live at the Jazz Showcase in Chicago Volume Two": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Ray Brown\u0000Live at the Loa  Summer Wind": {
+    "path": "data/covers/album-itunes-2d9017166c26.jpg",
+    "source": "itunes",
+    "collection_id": 1442458634,
+    "release_title": "Summer Wind - Live At the Loa",
+    "artist": "Ray Brown Trio",
+    "match_score": 1.0
+  },
+  "Bill Evans\u000012 Classic Albums 1956  1962": {
+    "path": "data/covers/album-5b1207c8-d1b4-4e36-96fc-2694950ae93d.jpg",
+    "release_id": "5b1207c8-d1b4-4e36-96fc-2694950ae93d",
+    "release_title": "12 Classic Albums: 1956 - 1962",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000At the Golden Circle Volume 4": {
+    "path": "data/covers/album-itunes-90ee4e94710e.jpg",
+    "source": "itunes",
+    "collection_id": 161530630,
+    "release_title": "At the Golden Circle, Vol. 4",
+    "artist": "Bud Powell",
+    "match_score": 0.842
+  },
+  "Keith Jarrett\u0000Standards Volume 1": {
+    "path": "data/covers/album-6b4c6d8a-e33a-47c5-b196-6a4a0628c599.jpg",
+    "release_id": "6b4c6d8a-e33a-47c5-b196-6a4a0628c599",
+    "release_title": "Standards, Volume 1",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Cosmos": {
+    "path": "data/covers/album-itunes-a04ce679c66e.jpg",
+    "source": "itunes",
+    "collection_id": 1443125739,
+    "release_title": "Cosmos",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Red Garland\u0000Crossings": {
+    "path": "data/covers/album-f330c2c9-ea2b-4a56-9b16-68124480f9e8.jpg",
+    "release_id": "f330c2c9-ea2b-4a56-9b16-68124480f9e8",
+    "release_title": "Crossings",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Wynton Kelly\u0000Kelly Blue": {
+    "path": "data/covers/album-c1671b8a-44ff-432e-9848-061950e810a4.jpg",
+    "release_id": "c1671b8a-44ff-432e-9848-061950e810a4",
+    "release_title": "Kelly Blue",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Double Trios": {
+    "path": "data/covers/album-itunes-c969827920ec.jpg",
+    "source": "itunes",
+    "collection_id": 816052578,
+    "release_title": "Double Trios",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Kind of Evans": {
+    "path": "data/covers/album-ab99fd68-f916-4480-abfc-bacdf71c800c.jpg",
+    "release_id": "ab99fd68-f916-4480-abfc-bacdf71c800c",
+    "release_title": "Kind of Evans",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Ahmads Blues": {
+    "path": "data/covers/album-d6af7c23-cdbd-478f-afdd-69a1e18b289f.jpg",
+    "release_id": "d6af7c23-cdbd-478f-afdd-69a1e18b289f",
+    "release_title": "Ahmad’s Blues",
+    "source": "cover-art-archive",
+    "match_score": 0.96
+  },
+  "Bud Powell\u0000Swingin With Bud": {
+    "path": "data/covers/album-itunes-868223a245fe.jpg",
+    "source": "itunes",
+    "collection_id": 1211747005,
+    "release_title": "Swingin' With Bud",
+    "artist": "Bud Powell Trio",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Eloquence": {
+    "path": "data/covers/album-9495f8dd-8cf5-4aa3-a772-302ca7f4511e.jpg",
+    "release_id": "9495f8dd-8cf5-4aa3-a772-302ca7f4511e",
+    "release_title": "Eloquence",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000McCoy Tyner with Stanley Clarke and Al Foster": {
+    "path": "data/covers/album-itunes-69b7bcbb566e.jpg",
+    "source": "itunes",
+    "collection_id": 1676549495,
+    "release_title": "McCoy Tyner With Stanley Clarke And Al Foster",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Ill Give You Something to Remember Me By": {
+    "path": "data/covers/album-aa7e34ca-3ec6-450b-af77-f49fd3220725.jpg",
+    "release_id": "aa7e34ca-3ec6-450b-af77-f49fd3220725",
+    "release_title": "I'll Give You Something to Remember Me By...",
+    "source": "cover-art-archive",
+    "match_score": 0.988
+  },
+  "Red Garland\u0000When There Are Grey Skies": {
+    "path": "data/covers/album-itunes-e9ec53a5ab7a.jpg",
+    "source": "itunes",
+    "collection_id": 1443164067,
+    "release_title": "When There Are Grey Skies",
+    "artist": "Red Garland",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000The High Priest": {
+    "path": "data/covers/album-566edac3-5a78-4bc6-a87a-370a64a9eba4.jpg",
+    "release_id": "566edac3-5a78-4bc6-a87a-370a64a9eba4",
+    "release_title": "The High Priest",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Teddy Wilson\u0000And Then They Wrote": {
+    "path": "data/covers/album-a32529df-36fc-4aa5-9bc7-e609187b7032.jpg",
+    "release_id": "a32529df-36fc-4aa5-9bc7-e609187b7032",
+    "release_title": "And Then They Wrote...",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Re Person I Knew": {
+    "path": "data/covers/album-itunes-4a8cbb82e8bf.jpg",
+    "source": "itunes",
+    "collection_id": 1443145359,
+    "release_title": "Re: Person I Knew",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Live at the Musicans Exchange Cafe": {
+    "path": "data/covers/album-73f0f0d1-8426-4f84-bd82-2c60e579da87.jpg",
+    "release_id": "73f0f0d1-8426-4f84-bd82-2c60e579da87",
+    "release_title": "Live at the Musicans Exchange Cafe",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000The Art of the Ballad": {
+    "path": "data/covers/album-itunes-d4120d2d95c5.jpg",
+    "source": "itunes",
+    "collection_id": 1412800708,
+    "release_title": "The Art of the Ballad",
+    "artist": "Thelonious Monk",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Something Borrowed Something Blue": {
+    "path": "data/covers/album-itunes-65e950031977.jpg",
+    "source": "itunes",
+    "collection_id": 1443625038,
+    "release_title": "Something Borrowed, Something Blue",
+    "artist": "Tommy Flanagan",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Power Trio": {
+    "path": "data/covers/album-8dec339d-8c9e-41d4-9dba-fed7c9fbe762.jpg",
+    "release_id": "8dec339d-8c9e-41d4-9dba-fed7c9fbe762",
+    "release_title": "Power Trio",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000The Seance": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Wynton Kelly\u0000Undiluted  Its All Right": {
+    "path": "data/covers/album-6a03207b-d04b-44bc-b147-69c76ce42dd5.jpg",
+    "release_id": "6a03207b-d04b-44bc-b147-69c76ce42dd5",
+    "release_title": "Undiluted / It's All Right",
+    "source": "cover-art-archive",
+    "match_score": 0.979
+  },
+  "Keith Jarrett\u0000Still Live": {
+    "path": "data/covers/album-itunes-85a3a2e25fd8.jpg",
+    "source": "itunes",
+    "collection_id": 1452871191,
+    "release_title": "Still Live",
+    "artist": "Keith Jarrett Trio",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Live at Caf Loup": {
+    "path": "data/covers/album-a0760c53-942e-42bc-a415-91dd6136ccf6.jpg",
+    "release_id": "a0760c53-942e-42bc-a415-91dd6136ccf6",
+    "release_title": "Live at Café Loup",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000The Only One": {
+    "path": "data/covers/album-3c2ac8e6-a38c-4327-beb4-c37c71723032.jpg",
+    "release_id": "3c2ac8e6-a38c-4327-beb4-c37c71723032",
+    "release_title": "The Only One",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Village Vanguard Sessions": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Abdullah Ibrahim\u0000Yarona": {
+    "path": "data/covers/album-itunes-e9968fccca5e.jpg",
+    "source": "itunes",
+    "collection_id": 310155950,
+    "release_title": "Yarona",
+    "artist": "Abdullah Ibrahim",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Blue in Green The Concert in Canada": {
+    "path": "data/covers/album-f91775f1-e8c2-411d-8e71-b3f159ce9937.jpg",
+    "release_id": "f91775f1-e8c2-411d-8e71-b3f159ce9937",
+    "release_title": "Blue in Green: The Concert in Canada",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Sharp Notes": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Junior Mance\u0000Mance": {
+    "path": "data/covers/album-itunes-fc91e814ef9a.jpg",
+    "source": "itunes",
+    "collection_id": 1200604317,
+    "release_title": "Mance",
+    "artist": "Junior Mance Trio",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Softly as in a Morning Sunrise": {
+    "path": "data/covers/album-6c6b572f-d769-42c5-8485-27eeb0e3bc62.jpg",
+    "release_id": "6c6b572f-d769-42c5-8485-27eeb0e3bc62",
+    "release_title": "Softly, as in a Morning Sunrise",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000Something for Lester": {
+    "path": "data/covers/album-itunes-3d56302f3d3c.jpg",
+    "source": "itunes",
+    "collection_id": 1532292638,
+    "release_title": "Something For Lester",
+    "artist": "Ray Brown",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000Lazy Afternoon": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Thelonious Monk\u0000The Complete Riverside Recordings": {
+    "path": "data/covers/album-itunes-036bcfdfe1eb.jpg",
+    "source": "itunes",
+    "collection_id": 1442011931,
+    "release_title": "The Complete Riverside Recordings",
+    "artist": "Thelonious Monk",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000California Here I Come": {
+    "path": "data/covers/album-itunes-a8d41ddfc01c.jpg",
+    "source": "itunes",
+    "collection_id": 1447421204,
+    "release_title": "California, Here I Come",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Bill Evans Vol 2": {
+    "path": "data/covers/album-847db62d-4c4f-4299-9cc3-8e60795465b4.jpg",
+    "release_id": "847db62d-4c4f-4299-9cc3-8e60795465b4",
+    "release_title": "Bill Evans Vol. 2",
+    "source": "cover-art-archive",
+    "match_score": 0.769
+  },
+  "Bobby Timmons\u0000In Person Recorded Live at the Village Vanguard": {
+    "path": "data/covers/album-9d3bfd01-0a0d-4029-8763-c16ed83b209b.jpg",
+    "release_id": "9d3bfd01-0a0d-4029-8763-c16ed83b209b",
+    "release_title": "The Bobby Timmons Trio in Person recorded \"live\" at the Village Vanguard",
+    "source": "cover-art-archive",
+    "match_score": 0.819
+  },
+  "Tommy Flanagan\u0000Beyond the Bluebird": {
+    "path": "data/covers/album-itunes-2a9fd795dc40.jpg",
+    "source": "itunes",
+    "collection_id": 300375805,
+    "release_title": "Beyond the Bluebird",
+    "artist": "Tommy Flanagan & Kenny Burrell",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000At the Deer Head Inn": {
+    "path": "data/covers/album-d482ea29-99a8-4e0a-ae70-839d2b8d1fe0.jpg",
+    "release_id": "d482ea29-99a8-4e0a-ae70-839d2b8d1fe0",
+    "release_title": "At the Deer Head Inn",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Explorations": {
+    "path": "data/covers/album-itunes-bf5d2d438207.jpg",
+    "source": "itunes",
+    "collection_id": 1440794254,
+    "release_title": "Explorations (Remastered)",
+    "artist": "Bill Evans Trio",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Flanagans Shenanigans": {
+    "path": "data/covers/album-99b71833-0e39-47b7-8f9e-06afdff3a0bc.jpg",
+    "release_id": "99b71833-0e39-47b7-8f9e-06afdff3a0bc",
+    "release_title": "Flanagan's Shenanigans",
+    "source": "cover-art-archive",
+    "match_score": 0.977
+  },
+  "Bud Powell\u0000Ultimate Bud Powell": {
+    "path": "data/covers/album-itunes-e619c692f19d.jpg",
+    "source": "itunes",
+    "collection_id": 1444081166,
+    "release_title": "Ultimate Bud Powell",
+    "artist": "Bud Powell",
+    "match_score": 1.0
+  },
+  "Kenny Drew\u0000All the Things You Are": {
+    "path": "data/covers/album-itunes-f10d0ce73031.jpg",
+    "source": "itunes",
+    "collection_id": 1513066676,
+    "release_title": "All the Things You Are",
+    "artist": "Kenny Drew Quartet",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Another Time  The Hilversum Concert": {
+    "path": "data/covers/album-itunes-944a4c2a0eca.jpg",
+    "source": "itunes",
+    "collection_id": 1226876072,
+    "release_title": "Another Time: The Hilversum Concert (Live)",
+    "artist": "Bill Evans",
+    "match_score": 0.923
+  },
+  "Ahmad Jamal\u0000Ahmad Jamal at the Blackhawk": {
+    "path": null,
+    "source": "not-found"
+  },
+  "John Hicks\u0000Some Other Time": {
+    "path": "data/covers/album-85161000-d00f-4a8a-b1c5-115317016961.jpg",
+    "release_id": "85161000-d00f-4a8a-b1c5-115317016961",
+    "release_title": "Some Other Time",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bobby Timmons\u0000Chicken and Dumplins": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bobby Timmons\u0000Little Barefoot Soul": {
+    "path": "data/covers/album-162ec1fd-6abf-49bd-b171-196c80d7b9ee.jpg",
+    "release_id": "162ec1fd-6abf-49bd-b171-196c80d7b9ee",
+    "release_title": "Little Barefoot Soul",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Complete Live at Ronnie Scotts 1980": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Ahmad Jamal\u0000At the Top Poinciana Revisited": {
+    "path": "data/covers/album-35fd671e-2eae-491d-bbc9-4ff4914808d3.jpg",
+    "release_id": "35fd671e-2eae-491d-bbc9-4ff4914808d3",
+    "release_title": "At the Top: Poinciana Revisited",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000The Floating Jazz Festival Trio 1997": {
+    "path": "data/covers/album-d8ed0899-d8ee-478d-b31e-70619f9d06dc.jpg",
+    "release_id": "d8ed0899-d8ee-478d-b31e-70619f9d06dc",
+    "release_title": "The Floating Jazz Festival Trio 1997",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Lennie Tristano\u0000Descent Into the Maelstrom": {
+    "path": "data/covers/album-itunes-99e1b93661ac.jpg",
+    "source": "itunes",
+    "collection_id": 973872999,
+    "release_title": "Descent Into the Maelstrom",
+    "artist": "Lennie Tristano",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Two Originals Walking the Line  Another Day": {
+    "path": "data/covers/album-f4db4b93-54cb-4b06-9554-5a60a42331c2.jpg",
+    "release_id": "f4db4b93-54cb-4b06-9554-5a60a42331c2",
+    "release_title": "Two Originals: Walking the Line / Another Day",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000Live": {
+    "path": "data/covers/album-itunes-68e0ba01dd44.jpg",
+    "source": "itunes",
+    "collection_id": 1880965692,
+    "release_title": "Live",
+    "artist": "Kenny Barron",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Nightwind An Erroll Garner Songbook": {
+    "path": "data/covers/album-0f924650-cae1-456f-9da8-7416fd56918e.jpg",
+    "release_id": "0f924650-cae1-456f-9da8-7416fd56918e",
+    "release_title": "Nightwind: An Erroll Garner Songbook",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000Autumn in New York": {
+    "path": "data/covers/album-caf1e7e4-5051-48db-a9bb-c92c8cdb5f34.jpg",
+    "release_id": "caf1e7e4-5051-48db-a9bb-c92c8cdb5f34",
+    "release_title": "Autumn in New York",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Nights at the Vanguard": {
+    "path": "data/covers/album-c26b6045-371e-4fa3-9d2e-ee7dc24498c3.jpg",
+    "release_id": "c26b6045-371e-4fa3-9d2e-ee7dc24498c3",
+    "release_title": "Nights at the Vanguard",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000Live From New York to Tokyo": {
+    "path": "data/covers/album-itunes-0a1ee3923758.jpg",
+    "source": "itunes",
+    "collection_id": 1497230053,
+    "release_title": "Live From New York To Tokyo",
+    "artist": "Ray Brown Trio",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Complete Village Vanguard Recordings 1961": {
+    "path": "data/covers/album-itunes-cb220793c039.jpg",
+    "source": "itunes",
+    "collection_id": 1440781974,
+    "release_title": "The Complete Village Vanguard Recordings, 1961 (Live) [Remastered]",
+    "artist": "Bill Evans",
+    "match_score": 0.943
+  },
+  "Keith Jarrett\u0000Foundations The Keith Jarrett Anthology": {
+    "path": "data/covers/album-itunes-3c5074463b75.jpg",
+    "source": "itunes",
+    "collection_id": 81898030,
+    "release_title": "Foundations: The Keith Jarrett Anthology",
+    "artist": "Keith Jarrett",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Byablue": {
+    "path": "data/covers/album-itunes-6d56439479b8.jpg",
+    "source": "itunes",
+    "collection_id": 1445722881,
+    "release_title": "Byablue",
+    "artist": "Keith Jarrett",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Trio 65": {
+    "path": "data/covers/album-itunes-2ba21d56a0d6.jpg",
+    "source": "itunes",
+    "collection_id": 1425174437,
+    "release_title": "Trio 65",
+    "artist": "Bill Evans Trio",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000Black Orpheus": {
+    "path": "data/covers/album-eb17fdc3-4b4b-4463-8d02-699d20daeec7.jpg",
+    "release_id": "eb17fdc3-4b4b-4463-8d02-699d20daeec7",
+    "release_title": "Black Orpheus",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Cedar Walton\u0000The Trio Volume 2": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Dave Holland\u0000Scratch": {
+    "path": "data/covers/album-9b31d6a9-2adf-4658-a6a4-a57c9ba79da8.jpg",
+    "release_id": "9b31d6a9-2adf-4658-a6a4-a57c9ba79da8",
+    "release_title": "Scratch",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Bill Evans at Town Hall Volume 1": {
+    "path": "data/covers/album-itunes-e6594eb172fc.jpg",
+    "source": "itunes",
+    "collection_id": 1443122682,
+    "release_title": "Bill Evans At Town Hall",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Bobby Timmons\u0000Born to Be Blue": {
+    "path": "data/covers/album-itunes-9faeb3f21f7f.jpg",
+    "source": "itunes",
+    "collection_id": 1522744499,
+    "release_title": "Born To Be Blue",
+    "artist": "Bobby Timmons Trio",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000Four in One": {
+    "path": "data/covers/album-8322fc3d-ad0d-4228-a418-14f65f859a11.jpg",
+    "release_id": "8322fc3d-ad0d-4228-a418-14f65f859a11",
+    "release_title": "Four in One",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ray Brown\u0000The Man Complete Recordings 19461959": {
+    "path": "data/covers/album-2f9b936b-8e7e-4bda-9e86-433f883dec13.jpg",
+    "release_id": "2f9b936b-8e7e-4bda-9e86-433f883dec13",
+    "release_title": "The Man: Complete Recordings 1946-1959",
+    "source": "cover-art-archive",
+    "match_score": 0.985
+  },
+  "Wynton Kelly\u0000Smokin in Seattle Live at the Penthouse": {
+    "path": "data/covers/album-6fb747bf-9481-4d01-a249-8678bf7e7f62.jpg",
+    "release_id": "6fb747bf-9481-4d01-a249-8678bf7e7f62",
+    "release_title": "Smokin’ in Seattle: Live at the Penthouse",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000Prayer": {
+    "path": "data/covers/album-c487ac10-d4f8-46b1-a3b7-a4f28e865614.jpg",
+    "release_id": "c487ac10-d4f8-46b1-a3b7-a4f28e865614",
+    "release_title": "Prayer",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000At the Piano": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Oscar Peterson\u0000Blues Etude": {
+    "path": "data/covers/album-c4cad801-ddee-45aa-82f6-2d97821c046b.jpg",
+    "release_id": "c4cad801-ddee-45aa-82f6-2d97821c046b",
+    "release_title": "Blues Etude",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Tommy Flanagan\u0000Lady Be Good  for Ella": {
+    "path": "data/covers/album-58b601c2-3aae-418c-823c-315bfda7411b.jpg",
+    "release_id": "58b601c2-3aae-418c-823c-315bfda7411b",
+    "release_title": "Lady Be Good ... for Ella",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Complete Fantasy Recordings": {
+    "path": "data/covers/album-itunes-2d219b58f279.jpg",
+    "source": "itunes",
+    "collection_id": 1444232732,
+    "release_title": "The Complete Fantasy Recordings",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Autumn Leaves": {
+    "path": "data/covers/album-itunes-0340de978c3c.jpg",
+    "source": "itunes",
+    "collection_id": 1536453781,
+    "release_title": "Autumn Leaves - Single",
+    "artist": "Ben Evans",
+    "match_score": 0.788
+  },
+  "Junior Mance\u0000Blue Mance": {
+    "path": "data/covers/album-itunes-4f1352fb2984.jpg",
+    "source": "itunes",
+    "collection_id": 1220156116,
+    "release_title": "Blue Mance",
+    "artist": "Junior Mance Trio",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000Compassion": {
+    "path": "data/covers/album-60d04004-e024-4c4f-8dc5-e3648935c3a4.jpg",
+    "release_id": "60d04004-e024-4c4f-8dc5-e3648935c3a4",
+    "release_title": "Compassion",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Youre Gonna Hear From Me": {
+    "path": "data/covers/album-216e03a4-524c-4514-ac4a-23b49647dfd9.jpg",
+    "release_id": "216e03a4-524c-4514-ac4a-23b49647dfd9",
+    "release_title": "You're Gonna Hear From Me",
+    "source": "cover-art-archive",
+    "match_score": 0.98
+  },
+  "Keith Jarrett\u0000After the Fall": {
+    "path": "data/covers/album-01dd675f-42ae-4ace-a7d9-cfe4ad5428c8.jpg",
+    "release_id": "01dd675f-42ae-4ace-a7d9-cfe4ad5428c8",
+    "release_title": "After the Fall",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Heat Wave": {
+    "path": "data/covers/album-48056368-d59e-4b65-b38f-d42abee41071.jpg",
+    "release_id": "48056368-d59e-4b65-b38f-d42abee41071",
+    "release_title": "Heat Wave",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Live At The Barbican London 1984": {
+    "path": "data/covers/album-fa769a44-91e9-4e7b-b67a-86659a985672.jpg",
+    "release_id": "fa769a44-91e9-4e7b-b67a-86659a985672",
+    "release_title": "Live At The Barbican, London 1984",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Freeflight": {
+    "path": "data/covers/album-ad48eda6-2115-3c22-8ec1-dd890a3dbb86.jpg",
+    "release_id": "ad48eda6-2115-3c22-8ec1-dd890a3dbb86",
+    "release_title": "Freeflight",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Best of Bill Evans Live": {
+    "path": "data/covers/album-itunes-73f1724eca82.jpg",
+    "source": "itunes",
+    "collection_id": 1458054800,
+    "release_title": "The Best of Bill Evans Live",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Horizon": {
+    "path": "data/covers/album-8861fa47-69f9-44cd-ad81-31276583ca0f.jpg",
+    "release_id": "8861fa47-69f9-44cd-ad81-31276583ca0f",
+    "release_title": "Horizon",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000Complete 1947  1952 Blue Note Recordings": {
+    "path": "data/covers/album-adbe683d-eb90-4a6c-97dc-5024028d6ce6.jpg",
+    "release_id": "adbe683d-eb90-4a6c-97dc-5024028d6ce6",
+    "release_title": "The Complete Blue Note Recordings",
+    "source": "cover-art-archive",
+    "match_score": 0.853
+  },
+  "Ahmad Jamal\u0000All of You": {
+    "path": "data/covers/album-itunes-2777fa0c8260.jpg",
+    "source": "itunes",
+    "collection_id": 1442803642,
+    "release_title": "All of You (Live)",
+    "artist": "Ahmad Jamal",
+    "match_score": 0.8
+  },
+  "Keith Jarrett\u0000The Impulse Story": {
+    "path": "data/covers/album-itunes-a2e7ccead937.jpg",
+    "source": "itunes",
+    "collection_id": 1478455196,
+    "release_title": "The Impulse Story",
+    "artist": "Keith Jarrett",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000Complete the Amazing Bud Powell": {
+    "path": "data/covers/album-24a5209e-2b82-4875-8c61-cbe80fca0f30.jpg",
+    "release_id": "24a5209e-2b82-4875-8c61-cbe80fca0f30",
+    "release_title": "Complete the Amazing Bud Powell",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Teddy Wilson\u0000Revisits the Goodman Years": {
+    "path": "data/covers/album-itunes-ce99c7c46454.jpg",
+    "source": "itunes",
+    "collection_id": 274343775,
+    "release_title": "Revisits the Goodman Years",
+    "artist": "Teddy Wilson",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Life Between the Exit Signs": {
+    "path": "data/covers/album-itunes-d19524a83109.jpg",
+    "source": "itunes",
+    "collection_id": 81898367,
+    "release_title": "Life Between the Exit Signs",
+    "artist": "Keith Jarrett",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Complete Recordings": {
+    "path": "data/covers/album-070ed225-2473-4977-aa54-b0f7fd098615.jpg",
+    "release_id": "070ed225-2473-4977-aa54-b0f7fd098615",
+    "release_title": "Complete Recordings",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Keith Jarrett\u0000Somewhere": {
+    "path": "data/covers/album-b9f2e048-44e3-4998-b1f3-0ea31488949c.jpg",
+    "release_id": "b9f2e048-44e3-4998-b1f3-0ea31488949c",
+    "release_title": "Somewhere",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u000085th Birthday Celebration": {
+    "path": "data/covers/album-32b3fa44-59db-4f16-9d42-ba593be6f018.jpg",
+    "release_id": "32b3fa44-59db-4f16-9d42-ba593be6f018",
+    "release_title": "85th Birthday Celebration",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Oscar Peterson Plays the Jerome Kern Songbook": {
+    "path": "data/covers/album-itunes-f5da5c05705f.jpg",
+    "source": "itunes",
+    "collection_id": 407769933,
+    "release_title": "Oscar Peterson Plays The Jerome Kern Songbook",
+    "artist": "Oscar Peterson",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Complete Live at the Spotlite Club 1958": {
+    "path": "data/covers/album-1cb6175e-fabc-4c77-b0ae-03e6eeb3e873.jpg",
+    "release_id": "1cb6175e-fabc-4c77-b0ae-03e6eeb3e873",
+    "release_title": "Complete Live at the Spotlite Club 1958",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Kenny Barron\u0000Book of Intuition": {
+    "path": "data/covers/album-itunes-1d22628cb2d4.jpg",
+    "source": "itunes",
+    "collection_id": 1443806691,
+    "release_title": "Book of Intuition",
+    "artist": "Kenny Barron Trio",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Sesjun Radio Shows": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Abdullah Ibrahim\u0000Cape Town Flowers": {
+    "path": "data/covers/album-itunes-0ae33a4ce19a.jpg",
+    "source": "itunes",
+    "collection_id": 310155955,
+    "release_title": "Cape Town Flowers",
+    "artist": "Abdullah Ibrahim",
+    "match_score": 1.0
+  },
+  "Red Garland\u0000Soul Burnin": {
+    "path": "data/covers/album-itunes-71bbdc7a394f.jpg",
+    "source": "itunes",
+    "collection_id": 1741390140,
+    "release_title": "Soul Burnin'",
+    "artist": "Red Garland",
+    "match_score": 1.0
+  },
+  "Stanley Cowell\u0000Travellin Man": {
+    "path": "data/covers/album-itunes-e861445e040c.jpg",
+    "source": "itunes",
+    "collection_id": 152316723,
+    "release_title": "Travellin' Man",
+    "artist": "Stanley Cowell",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000I Believe to My Soul": {
+    "path": "data/covers/album-itunes-6a51b2d41d74.jpg",
+    "source": "itunes",
+    "collection_id": 64814756,
+    "release_title": "I Believe to My Soul",
+    "artist": "Junior Mance",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000Blue Monk Vol 2": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bud Powell\u00001960 Essen Grugahalle": {
+    "path": "data/covers/album-54e4f0cd-499d-4238-b4da-a067bbc24853.jpg",
+    "release_id": "54e4f0cd-499d-4238-b4da-a067bbc24853",
+    "release_title": "1960 Essen, Grugahalle",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Brad Mehldau\u0000The Art of the Trio Volume 1": {
+    "path": "data/covers/album-itunes-54edd188aba4.jpg",
+    "source": "itunes",
+    "collection_id": 358124890,
+    "release_title": "The Art of the Trio, Vol. One",
+    "artist": "Brad Mehldau",
+    "match_score": 0.733
+  },
+  "Oscar Peterson\u0000Oscar Peterson Plays the Harold Arlen Song Book": {
+    "path": "data/covers/album-itunes-d97cac4897b7.jpg",
+    "source": "itunes",
+    "collection_id": 1442294208,
+    "release_title": "Oscar Peterson Plays the Harold Arlen Song Book",
+    "artist": "Oscar Peterson",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000Affinity": {
+    "path": "data/covers/album-itunes-11842e616129.jpg",
+    "source": "itunes",
+    "collection_id": 1879576755,
+    "release_title": "Affinity",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000The Awakening": {
+    "path": "data/covers/album-itunes-2df948ccff21.jpg",
+    "source": "itunes",
+    "collection_id": 1443878957,
+    "release_title": "The Awakening",
+    "artist": "Ahmad Jamal Trio",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Extensions": {
+    "path": "data/covers/album-eb721d81-2868-4b73-9cf0-08e14ad1c181.jpg",
+    "release_id": "eb721d81-2868-4b73-9cf0-08e14ad1c181",
+    "release_title": "Extensions",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Paul Bley\u0000Footloose": {
+    "path": "data/covers/album-936dbe8f-159b-352b-b1e2-24e2d4d7a8ef.jpg",
+    "release_id": "936dbe8f-159b-352b-b1e2-24e2d4d7a8ef",
+    "release_title": "Footloose!",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Bill Evans Album": {
+    "path": "data/covers/album-itunes-140a76390d30.jpg",
+    "source": "itunes",
+    "collection_id": 203772607,
+    "release_title": "The Bill Evans Album",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000But Not For Me": {
+    "path": "data/covers/album-itunes-9f2293c88263.jpg",
+    "source": "itunes",
+    "collection_id": 1577854019,
+    "release_title": "But Not For Me - Single",
+    "artist": "Ahmad Jamal",
+    "match_score": 0.8
+  },
+  "Chick Corea\u0000The Beginning": {
+    "path": "data/covers/album-a3e16737-e0b7-4177-82d9-578a03b6215b.jpg",
+    "release_id": "a3e16737-e0b7-4177-82d9-578a03b6215b",
+    "release_title": "The Beginning",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Oscar Peterson\u0000The Trio Live From Chicago": {
+    "path": "data/covers/album-itunes-927e837f1d1d.jpg",
+    "source": "itunes",
+    "collection_id": 1440924211,
+    "release_title": "The Trio - Live from Chicago (Expanded Edition)",
+    "artist": "Oscar Peterson Trio",
+    "match_score": 1.0
+  },
+  "McCoy Tyner\u0000Passion Dance": {
+    "path": "data/covers/album-itunes-0d19952f9c74.jpg",
+    "source": "itunes",
+    "collection_id": 1433851171,
+    "release_title": "Passion Dance (Live)",
+    "artist": "McCoy Tyner",
+    "match_score": 0.839
+  },
+  "Bill Evans\u0000New Jazz Conceptions": {
+    "path": "data/covers/album-itunes-17649f3788d5.jpg",
+    "source": "itunes",
+    "collection_id": 1443195132,
+    "release_title": "New Jazz Conceptions",
+    "artist": "Bill Evans",
+    "match_score": 1.0
+  },
+  "Junior Mance\u0000Holy Mama": {
+    "path": "data/covers/album-b2138408-29ec-4107-99ce-d889ccc4ed0b.jpg",
+    "release_id": "b2138408-29ec-4107-99ce-d889ccc4ed0b",
+    "release_title": "Holy Mama",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000In Search of Momentum 110": {
+    "path": null,
+    "source": "not-found"
+  },
+  "McCoy Tyner\u0000McCoy Tyner plays Ellington": {
+    "path": "data/covers/album-itunes-5daf87dc131b.jpg",
+    "source": "itunes",
+    "collection_id": 1443912213,
+    "release_title": "McCoy Tyner Plays Ellington",
+    "artist": "McCoy Tyner",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Live In Paris 1972 Vol 1": {
+    "path": "data/covers/album-6d60e30e-38e3-4880-92f9-58bb64b8dca1.jpg",
+    "release_id": "6d60e30e-38e3-4880-92f9-58bb64b8dca1",
+    "release_title": "Live In Paris 1972 Vol. 1",
+    "source": "cover-art-archive",
+    "match_score": 0.857
+  },
+  "Thelonious Monk\u0000The Essential Thelonious Monk": {
+    "path": "data/covers/album-itunes-0ff4480260be.jpg",
+    "source": "itunes",
+    "collection_id": 193949441,
+    "release_title": "The Essential Thelonious Monk",
+    "artist": "Thelonious Monk",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000Underground": {
+    "path": "data/covers/album-itunes-5208e21b5a7f.jpg",
+    "source": "itunes",
+    "collection_id": 199047432,
+    "release_title": "Underground",
+    "artist": "Thelonious Monk",
+    "match_score": 1.0
+  },
+  "Brad Mehldau\u0000Blues and Ballads": {
+    "path": "data/covers/album-itunes-1d5cfbe35bdd.jpg",
+    "source": "itunes",
+    "collection_id": 1094243392,
+    "release_title": "Blues and Ballads",
+    "artist": "Brad Mehldau Trio",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Bill Evans Trio at Shellys ManneHole Hollywood California": {
+    "path": "data/covers/album-1853abf6-6fe2-45c1-b382-eab395ee01c3.jpg",
+    "release_id": "1853abf6-6fe2-45c1-b382-eab395ee01c3",
+    "release_title": "Bill Evans Trio at Shelly's Manne-Hole, Hollywood, California",
+    "source": "cover-art-archive",
+    "match_score": 0.983
+  },
+  "Ahmad Jamal\u0000The Complete Collection Part Two 1959  1962": {
+    "path": "data/covers/album-7c65d37e-0071-4e65-9492-50c67ee3aa5c.jpg",
+    "release_id": "7c65d37e-0071-4e65-9492-50c67ee3aa5c",
+    "release_title": "The Complete Collection: Part Two 1959 - 1962",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Spanish Steps": {
+    "path": "data/covers/album-5876f9e7-aff0-48cc-b7ae-db292309a2ee.jpg",
+    "release_id": "5876f9e7-aff0-48cc-b7ae-db292309a2ee",
+    "release_title": "Spanish Steps",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Ahmad Jamal\u0000Naked City Theme": {
+    "path": "data/covers/album-e5cb28c7-ee46-4904-a3b1-4ce978a2327c.jpg",
+    "release_id": "e5cb28c7-ee46-4904-a3b1-4ce978a2327c",
+    "release_title": "Naked City Theme",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Since We Met": {
+    "path": "data/covers/album-itunes-7244e284db56.jpg",
+    "source": "itunes",
+    "collection_id": 1442960980,
+    "release_title": "Since We Met",
+    "artist": "Bill Evans Trio",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000In Buenos Aires  Vol 1": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Bud Powell\u0000The Complete Blue Note and Roost Recordings": {
+    "path": "data/covers/album-76fae2b3-51e5-4310-ac74-9ecb79f3ccd7.jpg",
+    "release_id": "76fae2b3-51e5-4310-ac74-9ecb79f3ccd7",
+    "release_title": "The Complete Blue Note and Roost Recordings",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000But Beautiful": {
+    "path": "data/covers/album-b7761e42-b7e9-4451-8690-23416d77a3e1.jpg",
+    "release_id": "b7761e42-b7e9-4451-8690-23416d77a3e1",
+    "release_title": "But Beautiful",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000The Trio Complete Sessions": {
+    "path": "data/covers/album-98738353-613f-4afa-9b57-e9805e4d5717.jpg",
+    "release_id": "98738353-613f-4afa-9b57-e9805e4d5717",
+    "release_title": "The Trio: Complete Sessions",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Dave Holland\u0000The Life of a Song": {
+    "path": "data/covers/album-a3b70dcb-cc58-4f2d-b6b2-e52f26e0b52d.jpg",
+    "release_id": "a3b70dcb-cc58-4f2d-b6b2-e52f26e0b52d",
+    "release_title": "The Life of a Song",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000The Paris Concert Edition One": {
+    "path": "data/covers/album-8f5cd1cb-cbd8-4f22-8c93-615ee2e9b4b8.jpg",
+    "release_id": "8f5cd1cb-cbd8-4f22-8c93-615ee2e9b4b8",
+    "release_title": "The Paris Concert, Edition One",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "John Hicks\u0000Impressions of Mary Lou": {
+    "path": "data/covers/album-itunes-500d3b1cc491.jpg",
+    "source": "itunes",
+    "collection_id": 1437941617,
+    "release_title": "Impressions of Mary Lou",
+    "artist": "John Hicks",
+    "match_score": 1.0
+  },
+  "Hampton Hawes\u0000Im All Smiles": {
+    "path": "data/covers/album-b998c517-aef2-48be-a377-844a7c04d187.jpg",
+    "release_id": "b998c517-aef2-48be-a377-844a7c04d187",
+    "release_title": "I'm All Smiles",
+    "source": "cover-art-archive",
+    "match_score": 0.963
+  },
+  "Keith Jarrett\u0000The OutofTowners": {
+    "path": "data/covers/album-047f60fa-b978-4411-a269-1f6df6e6f16c.jpg",
+    "release_id": "047f60fa-b978-4411-a269-1f6df6e6f16c",
+    "release_title": "The Out‐of‐Towners",
+    "source": "cover-art-archive",
+    "match_score": 0.923
+  },
+  "Kenny Drew\u0000Pal Joey": {
+    "path": null,
+    "source": "not-found"
+  },
+  "Thelonious Monk\u0000The Best of Thelonious Monk": {
+    "path": "data/covers/album-itunes-15c86bb9f68f.jpg",
+    "source": "itunes",
+    "collection_id": 1440751445,
+    "release_title": "The Best of Thelonious Monk (Remastered)",
+    "artist": "Thelonious Monk",
+    "match_score": 1.0
+  },
+  "Abdullah Ibrahim\u0000Dollar Brand Plays Sphere Jazz  Jazz Epistle  Verse 1": {
+    "path": "data/covers/album-fade6dfe-5ff9-4924-b7d1-027a34bd8003.jpg",
+    "release_id": "fade6dfe-5ff9-4924-b7d1-027a34bd8003",
+    "release_title": "Dollar Brand Plays Sphere Jazz / Jazz Epistle – Verse 1",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Bud Powell\u0000Jazz at Massey Hall Volume 2": {
+    "path": "data/covers/album-itunes-f6ff77609860.jpg",
+    "source": "itunes",
+    "collection_id": 1443595311,
+    "release_title": "Jazz At Massey Hall, Vol. 2",
+    "artist": "Bud Powell",
+    "match_score": 0.864
+  },
+  "Hank Jones\u0000The Essence": {
+    "path": "data/covers/album-187a6beb-4a55-4bae-aa26-739e283adcf9.jpg",
+    "release_id": "187a6beb-4a55-4bae-aa26-739e283adcf9",
+    "release_title": "The Essence",
+    "source": "cover-art-archive",
+    "match_score": 1.0
+  },
+  "Thelonious Monk\u0000The Unique Thelonious Monk": {
+    "path": "data/covers/album-itunes-b9423edade8a.jpg",
+    "source": "itunes",
+    "collection_id": 1445735561,
+    "release_title": "The Unique Thelonious Monk",
+    "artist": "Thelonious Monk",
+    "match_score": 1.0
+  },
+  "Hank Jones\u0000Last Recording": {
+    "path": "data/covers/album-itunes-4461379e841a.jpg",
+    "source": "itunes",
+    "collection_id": 1537821695,
+    "release_title": "LAST RECORDING",
+    "artist": "Hank Jones",
+    "match_score": 1.0
+  },
+  "Bill Evans\u0000Bill Evanss Finest Hour": {
+    "path": "data/covers/album-187aff80-7788-4c94-9ccf-9795e5cb57b9.jpg",
+    "release_id": "187aff80-7788-4c94-9ccf-9795e5cb57b9",
+    "release_title": "Bill Evans's Finest Hour",
+    "source": "cover-art-archive",
+    "match_score": 0.979
   }
 }

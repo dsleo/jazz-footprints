@@ -261,6 +261,15 @@ def load_combined_corpus(require_dtl: bool = False) -> dict[int, Solo]:
     return solos
 
 
+_TAKE_SUFFIX = re.compile(
+    r"[\s(\[-]*\b(?:alt(?:ernate)?\.?(?:\s*(?:take|version|tk))?(?:\s*\d+)?|take\s*\d+|master)\b[\s)\]]*$", re.I)
+
+
+def tune_title(title: str) -> str:
+    """JTD titles such as 'Trio alternate' or 'Mine take 2' are other takes of the same tune."""
+    return (_TAKE_SUFFIX.sub("", title).strip() or title).casefold()
+
+
 def load_jtd_corpus(path: Path | None = None) -> dict[int, Solo]:
     path = path or ROOT / "data" / "jtd.db"
     if not path.exists():
@@ -281,7 +290,7 @@ def load_jtd_corpus(path: Path | None = None) -> dict[int, Solo]:
                 performer=r["pianist"], title=r["title"], album=r["album"],
                 album_artist=r["bandleader"], instrument="piano · top-note projection",
                 recording_date=r["year"], year=year_from_text(r["year"]),
-                composition_id=_stable_external_id(r["title"].casefold(), 5_000_000),
+                composition_id=_stable_external_id(tune_title(r["title"]), 5_000_000),
                 solo_start=float(r["solo_start"]), musicbrainz_id=r["musicbrainz_id"],
                 pitches=pitches, onsets=onsets, durations=durations,
                 eventids=list(range(1, len(pitches) + 1)),
