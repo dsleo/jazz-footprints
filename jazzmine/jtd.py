@@ -1,6 +1,7 @@
 """Import a balanced pilot from the public Jazz Trio Database annotations."""
 from __future__ import annotations
 
+import bisect
 import hashlib
 import io
 import json
@@ -22,6 +23,15 @@ PILOT_LIMIT = 120
 def _seconds(timestamp: str) -> float:
     parts = [int(x) for x in timestamp.split(":")]
     return float(parts[-1] + 60 * parts[-2] + (3600 * parts[-3] if len(parts) == 3 else 0))
+
+
+def _beat_position(onset: float, beats: list[float], tempo: float) -> float:
+    """Fractional beat index: interpolate inside the tracked beat grid."""
+    if len(beats) < 2 or onset < beats[0]:
+        return onset * tempo / 60
+    j = min(bisect.bisect_right(beats, onset) - 1, len(beats) - 2)
+    width = beats[j + 1] - beats[j]
+    return j + (onset - beats[j]) / width if width > 0 else float(j)
 
 
 def _notes_from_midi(blob: bytes) -> list[tuple[float, float, int]]:
@@ -68,8 +78,8 @@ def _top_line(notes: list[tuple[float, float, int]]) -> tuple[list[int], list[fl
 
 def import_pilot(archive: Path, path: Path = JTD_SOURCE,
                  limit: int = PILOT_LIMIT) -> dict:
-    if limit < 1 or limit > 500:
-        raise ValueError("Pilot limit must be between 1 and 500")
+    if limit < 1 or limit > 2000:
+        raise ValueError("Pilot limit must be between 1 and 2000")
     checksum = hashlib.sha256(archive.read_bytes()).hexdigest()
     with zipfile.ZipFile(archive) as zf:
         metadata_paths = sorted(n for n in zf.namelist() if n.endswith("/metadata.json"))
@@ -147,10 +157,8 @@ def import_pilot(archive: Path, path: Path = JTD_SOURCE,
                             beat_times.append(float(row["beat"]))
                         except (ValueError, KeyError):
                             continue
-                beat_positions = []
-                for onset in onsets:
-                    before = [i for i, beat in enumerate(beat_times) if beat <= onset]
-                    beat_positions.append(float(before[-1]) if before else onset * float(meta.get("tempo", 120)) / 60)
+                beat_positions = [_beat_position(onset, beat_times, float(meta.get("tempo") or 120))
+                                  for onset in onsets]
                 db.execute("INSERT INTO solo VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (
                     solo_id, track_id, meta["musicians"]["pianist"], meta["track_name"],
                     meta["album_name"], meta["bandleader"], str(meta.get("recording_year") or ""),

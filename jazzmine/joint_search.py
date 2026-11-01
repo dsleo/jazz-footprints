@@ -103,6 +103,13 @@ def wjazzd_beat_durations(solos: dict[int, Solo]) -> dict[int, list[float]]:
             for mid, solo in solos.items()}
 
 
+def beat_durations(solos: dict[int, Solo]) -> dict[int, list[float]]:
+    """Exact beat-grid durations for WJazzD; local seconds-per-beat slope for other sources."""
+    exact = wjazzd_beat_durations({m: x for m, x in solos.items() if x.source == "WJazzD"})
+    return {m: exact[m] if m in exact else [_duration_beats(x, i) for i in range(len(x.pitches))]
+            for m, x in solos.items()}
+
+
 def note_cost(a: Solo, b: Solo, i: int, j: int, previous_i: int | None,
               previous_j: int | None, transposition: int, settings: Settings,
               durations_a: list[float], durations_b: list[float]) -> float:

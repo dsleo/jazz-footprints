@@ -7,7 +7,7 @@ from jazzmine.static_export import recording
 
 
 SOLO = SimpleNamespace(
-    melid=42, trackid=7, solo_start=20.0,
+    melid=42, trackid=7, solo_start=20.0, source="WJazzD",
     onsets=[0.0, 10.0, 20.0], durations=[1.0, 1.0, 1.0],
 )
 
@@ -38,3 +38,16 @@ class RecordingExportTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class JtdRecordingTests(unittest.TestCase):
+    def test_jtd_links_at_published_solo_start_plus_onset(self):
+        solo = SimpleNamespace(source="JTD", solo_start=64.0, trackid=1, melid=1,
+                               source_url="https://www.youtube.com/watch?v=XE1wjT92yfs")
+        self.assertEqual(recording(solo, 74.9, {}, {}, {}),
+                         {"video_id": "XE1wjT92yfs", "second": 74, "kind": "verified"})
+
+    def test_jtd_without_youtube_link_has_no_recording(self):
+        solo = SimpleNamespace(source="JTD", solo_start=0, trackid=1, melid=1,
+                               source_url="https://github.com/HuwCheston/Jazz-Trio-Database")
+        self.assertIsNone(recording(solo, 10, {}, {}, {}))

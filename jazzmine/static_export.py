@@ -9,13 +9,14 @@ from __future__ import annotations
 import argparse
 import gzip
 import json
+import re
 import shutil
 import sqlite3
 from collections import Counter
 from pathlib import Path
 
 from . import covers
-from .corpus import ROOT, load_corpus, source_checksum
+from .corpus import ROOT, combined_source_checksum, load_combined_corpus
 from .joint_store import DEFAULT_STORE, PIPELINE
 
 
@@ -60,8 +61,17 @@ def media_maps(path: Path) -> tuple[dict, dict, dict]:
         db.close()
 
 
+def youtube_id(url: str) -> str | None:
+    hit = re.search(r"(?:v=|youtu\.be/|embed/)([\w-]{11})", url or "")
+    return hit.group(1) if hit else None
+
+
 def recording(solo, track_time: float, manual: dict, aligned: dict, automatic: dict) -> dict | None:
     """Link to the passage onset, using the same source priority as App._recording."""
+    if solo.source == "JTD":
+        # JTD publishes the solo's start inside its linked video; onsets are solo-local.
+        vid = youtube_id(solo.source_url)
+        return {"video_id": vid, "second": max(0, int(track_time)), "kind": "verified"} if vid else None
     row = manual.get(str(solo.trackid))
     match = aligned.get(str(solo.melid))
     auto = automatic.get(str(solo.trackid))
@@ -97,14 +107,14 @@ def export(store: Path = DEFAULT_STORE, output: Path = OUTPUT,
     db = sqlite3.connect(f"file:{store.resolve()}?mode=ro", uri=True)
     try:
         meta = dict(db.execute("SELECT key,value FROM meta"))
-        if meta.get("complete") != "True" or meta.get("source_sha256") != source_checksum():
-            raise ValueError("Build the complete joint WJazzD index before exporting")
+        if meta.get("complete") != "True" or meta.get("source_sha256") != combined_source_checksum():
+            raise ValueError("Build the complete joint index before exporting")
         if meta.get("pipeline") != PIPELINE:
-            raise ValueError("Rebuild the joint WJazzD index with the current pipeline before exporting")
+            raise ValueError("Rebuild the joint index with the current pipeline before exporting")
         settings = json.loads(meta["settings"])
         if abs(float(settings.get("min_similarity", -1)) - floor) > 1e-9:
             raise ValueError("The export floor must match the endpoint floor used to build the joint index")
-        solos = load_corpus()
+        solos = load_combined_corpus()
         manual, aligned, automatic = media_maps(media_store)
         album_art = json.loads(ALBUM_ART_MAP.read_text()) if ALBUM_ART_MAP.exists() else {}
         output.mkdir(parents=True, exist_ok=True)
@@ -161,7 +171,10 @@ def export(store: Path = DEFAULT_STORE, output: Path = OUTPUT,
                 if link["kind"] == "estimated":
                     item["video_title"] = automatic[str(solo.trackid)]["title"]
                     item["video_channel"] = automatic[str(solo.trackid)]["channel"]
-                if link["kind"] == "verified":
+                if solo.source == "JTD":
+                    item["video_verifier"] = "Jazz Trio Database"
+                    item["video_evidence"] = "Solo start time published with the dataset's linked recording."
+                elif link["kind"] == "verified":
                     item["video_verifier"] = manual[str(solo.trackid)]["verifier"]
                     item["video_evidence"] = manual[str(solo.trackid)]["evidence"]
             key = covers._key(solo.performer, solo.album or solo.title, solo.title)

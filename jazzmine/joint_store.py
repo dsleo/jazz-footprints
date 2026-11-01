@@ -9,8 +9,8 @@ import time
 from dataclasses import asdict
 from pathlib import Path
 
-from .corpus import ROOT, load_corpus, validate_corpus
-from .joint_search import Settings, anchors, extend, wjazzd_beat_durations
+from .corpus import ROOT, combined_source_checksum, load_combined_corpus, validate_corpus
+from .joint_search import Settings, anchors, beat_durations, extend
 
 
 DEFAULT_STORE = ROOT / "data" / "joint-search.db"
@@ -50,11 +50,11 @@ def build(path: Path = DEFAULT_STORE, settings: Settings = Settings(),
           limit: int | None = None, progress=print) -> dict:
     if path.resolve() == (ROOT / "data" / "workbench.db").resolve():
         raise ValueError("The experimental search must not overwrite the app index")
-    solos = load_corpus()
-    report = validate_corpus(solos)
+    solos = load_combined_corpus()
+    report = validate_corpus(solos, combined_source_checksum())
     if report["issues"]:
         raise ValueError(report["issues"][:5])
-    durations = wjazzd_beat_durations(solos)
+    durations = beat_durations(solos)
     path.parent.mkdir(parents=True, exist_ok=True)
     db = sqlite3.connect(path)
     db.execute("PRAGMA journal_mode=WAL")
