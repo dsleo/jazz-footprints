@@ -183,7 +183,7 @@
             ['worker-startup','worker-index-start','worker-ready']
           ])try{performance.measure(`sm:${name}`,`sm:${start}`,`sm:${end}`)}catch{}
           window.__catalogStartupMetrics={...startup,marks:undefined};
-          console.info(`[Stolen Moments perf] worker index: ${startup.bytes.toLocaleString()} compressed bytes, ${startup.textBytes.toLocaleString()} JSON characters`);
+          console.info(`[Footprints perf] worker index: ${startup.bytes.toLocaleString()} compressed bytes, ${startup.textBytes.toLocaleString()} JSON characters`);
         }
         return catalog;
       }catch(error){worker?.terminate();console.warn('Catalog worker unavailable; using main-thread search',error)}

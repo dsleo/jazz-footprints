@@ -1,6 +1,6 @@
-# Stolen Moments — Reddit release kit
+# Footprints — Reddit release kit
 
-Site: <https://dsleo.github.io/stolen-moments/> · Data tour (slides, every claim playable): <https://dsleo.github.io/stolen-moments/stats.html>; deep links like `stats.html#sources`, `#echoes`, `#time` · Code: <https://github.com/dsleo/stolen-moments>
+Site: <https://dsleo.github.io/jazz-footprints/> · Data tour (slides, every claim playable): <https://dsleo.github.io/jazz-footprints/stats.html>; deep links like `stats.html#sources`, `#echoes`, `#time` · Code: <https://github.com/dsleo/jazz-footprints>
 
 Deploy `static/stats.html`, `stats.css`, `stats.json` (push to `main`) **before** posting, then open every link below from the live site.
 
@@ -34,27 +34,27 @@ Say "matching passages", "recorded earlier / later". Never "copied", "stole", "i
 >
 > It doesn't claim anyone copied anyone. Lots of matches are just shared vocabulary. I'd love to know which ones *you* hear as real connections and which are just licks everyone plays.
 >
-> Free, no ads, no tracking: <https://dsleo.github.io/stolen-moments/>
-> Example: <https://dsleo.github.io/stolen-moments/?pair=87.562.200.283>
+> Free, no ads, no tracking: <https://dsleo.github.io/jazz-footprints/>
+> Example: <https://dsleo.github.io/jazz-footprints/?pair=87.562.200.283>
 
 ### r/dataisbeautiful (needs an image; mark OC)
 
 **Image:** screenshot slide 02 (`stats.html#sources`, Brown vs Brecker with scores open) or slide 03 (`#echoes`) at ≥ 1400 px width. Chips show album covers and Wikimedia portraits; check `static/ASSET_RIGHTS.md` before using screenshots in press material.
 **Title:** [OC] Whose phrases show up in later jazz solos? Matching 1,558 transcribed solos, Clifford Brown's phrases come back most, Michael Brecker echoes the most
 
-> Source: Weimar Jazz Database + Jazz Trio Database. Tool: Python alignment of pitch intervals and rhythm (≥ 80% similarity). Counts are matched solo pairs between different musicians and tunes, "source" = earlier recording year. Hit rates divide by the later (or earlier) solos that could have matched, since a 1925 solo can only be a source. Not evidence of influence. Full method and caveats: <https://dsleo.github.io/stolen-moments/stats.html>
+> Source: Weimar Jazz Database + Jazz Trio Database. Tool: Python alignment of pitch intervals and rhythm (≥ 80% similarity). Counts are matched solo pairs between different musicians and tunes, "source" = earlier recording year. Hit rates divide by the later (or earlier) solos that could have matched, since a 1925 solo can only be a source. Not evidence of influence. Full method and caveats: <https://dsleo.github.io/jazz-footprints/stats.html>
 
 ### r/musictheory / r/jazzpiano / r/saxophone (tailor the title)
 
 **Title (musicians):** Whose phrases show up again and again in later jazz solos? I searched 1,558 transcribed solos for shared phrases
 
-> Each match starts from five identical intervals (so transposed phrases count) and is extended with a rhythm-aware alignment. ~323k passages above 80% similarity (the tour counts only the 12+ note, 85%+ ones). The interesting part for me: Clifford Brown's 9 solos come back in 115 later solos by 44 musicians. Is that influence, or just shared bebop-era vocabulary? Here's the data: <https://dsleo.github.io/stolen-moments/stats.html>. Method: <https://dsleo.github.io/stolen-moments/method.html>
+> Each match starts from five identical intervals (so transposed phrases count) and is extended with a rhythm-aware alignment. ~323k passages above 80% similarity (the tour counts only the 12+ note, 85%+ ones). The interesting part for me: Clifford Brown's 9 solos come back in 115 later solos by 44 musicians. Is that influence, or just shared bebop-era vocabulary? Here's the data: <https://dsleo.github.io/jazz-footprints/stats.html>. Method: <https://dsleo.github.io/jazz-footprints/method.html>
 
 ### r/InternetIsBeautiful or r/webdev / r/datasets (technical angle)
 
 **Title:** Show: a 100% static site that searches 323k matching passages across 1,558 jazz solos (no backend, runs in the browser)
 
-> Precomputed with a seed-and-extend alignment (like BLAST for pitch intervals), shipped as sharded gzip JSON, filtering in a Web Worker, audio matching with a local pitch tracker. Code and method: <https://github.com/dsleo/stolen-moments>
+> Precomputed with a seed-and-extend alignment (like BLAST for pitch intervals), shipped as sharded gzip JSON, filtering in a Web Worker, audio matching with a local pitch tracker. Code and method: <https://github.com/dsleo/jazz-footprints>
 
 ## Prepared replies
 

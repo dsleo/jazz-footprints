@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {performance} from 'node:perf_hooks';
-import {trackMonophonicNotes} from '../../static/listen/live-pitch.mjs';
+import {trackMonophonicNotes, trackRecordedNotes} from '../../static/listen/live-pitch.mjs';
 
 function render(events, seconds, sampleRate = 22050, harmonic = 0, vibrato = 0) {
   const samples = new Float32Array(Math.ceil(seconds * sampleRate));
@@ -60,4 +60,15 @@ test('three-second live window completes quickly on this host', () => {
   assert.equal(result.notes[0]?.pitch, 69);
   // Loose CI bound; measured results are recorded separately in the spike.
   assert.ok(elapsed < 3000, `live tracker took ${elapsed.toFixed(0)} ms`);
+});
+
+test('recorded tracker joins chunks into one ordered phrase', () => {
+  const pitches = [69, 72, 76, 74, 71, 69, 67, 64];
+  const events = Array.from({length: 32}, (_, i) => ({
+    pitch: pitches[i % pitches.length], start: i * 0.36, length: 0.29,
+  }));
+  const result = trackRecordedNotes(render(events, 12), 22050);
+  assert.deepEqual(result.notes.map(note => note.pitch), events.map(event => event.pitch));
+  assert.ok(result.notes.every((note, i) => i === 0 || note.onsetSeconds > result.notes[i - 1].onsetSeconds));
+  assert.equal(result.backend, 'yin');
 });

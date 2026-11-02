@@ -1,4 +1,4 @@
-# Stolen Moments — prelaunch audit, 27 October 2026
+# Footprints — prelaunch audit, 27 October 2026
 
 This review covers the current local `static/` build and the checked-in WJazzD v2.1 catalog. The working tree also contains uncommitted interface changes, including `method.html`; this is a review of what is on disk, not a claim that the public GitHub Pages site has these changes. I checked the catalog validator and JavaScript syntax, inspected the deployment workflow and core matching and presentation code, and opened the local site at desktop and 390 px mobile widths. I did not run a full screen-reader study or a throttled mobile performance benchmark.
 

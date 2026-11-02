@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Stolen Moments · jazz phrase discovery</title>
+  <title id="title">Footprints · jazz phrase discovery</title>
   <desc id="desc">Two melodic lines sit side by side on warm paper, inviting listeners to compare jazz phrases.</desc>
   <rect width="1200" height="630" fill="#f4f1e8"/>
   <path d="M72 68H1128M72 562H1128" stroke="#d7d1c2" stroke-width="2"/>
   <text x="78" y="116" fill="#a94329" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">A LISTENING ARCHIVE</text>
-  <text x="72" y="226" fill="#252921" font-family="Georgia,serif" font-size="88" font-weight="700">Stolen Moments</text>
+  <text x="72" y="226" fill="#252921" font-family="Georgia,serif" font-size="88" font-weight="700">Footprints</text>
   <text x="75" y="285" fill="#62695e" font-family="Arial,sans-serif" font-size="29">Find a phrase shared by two jazz solos.</text>
   <g fill="none" stroke="#858a7d" stroke-width="2">
     <path d="M96 374H1104M96 392H1104M96 410H1104M96 428H1104M96 446H1104"/>
@@ -38,5 +38,5 @@
   </g>
   <circle cx="600" cy="467" r="28" fill="#a94329"/><path d="M588 467h24m-8-9 9 9-9 9" fill="none" stroke="#f4f1e8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="75" y="598" fill="#62695e" font-family="Arial,sans-serif" font-size="17" letter-spacing="2">LISTEN · COMPARE · DECIDE</text>
-  <text x="1125" y="598" text-anchor="end" fill="#62695e" font-family="Arial,sans-serif" font-size="17">DSLEO.GITHUB.IO/STOLEN-MOMENTS</text>
+  <text x="1125" y="598" text-anchor="end" fill="#62695e" font-family="Arial,sans-serif" font-size="17">DSLEO.GITHUB.IO/JAZZ-FOOTPRINTS</text>
 </svg>

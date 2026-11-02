@@ -18,7 +18,7 @@ from .corpus import ROOT
 CATALOG = ROOT / "static" / "catalog" / "index.json.gz"
 MAP = ROOT / "data" / "album-art-map.json"
 CACHE = ROOT / "data" / "covers"
-HEADERS = {"User-Agent": "StolenMoments/0.2 (https://github.com/openai)",
+HEADERS = {"User-Agent": "Footprints/0.2 (https://github.com/openai)",
            "Accept": "application/json"}
 _last_mb_request = 0.0
 

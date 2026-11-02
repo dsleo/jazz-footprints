@@ -93,3 +93,5 @@
 .about li{font-size:15px;line-height:1.75}
 .cta{display:grid;place-items:center}
 .cta .begin{margin:0;padding:22px 38px;font-size:14px;border-radius:2px}
+.slide.intro{align-items:end}
+.cta{justify-items:start;align-self:end;padding-bottom:6px}

@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f1e8">
-  <meta name="description" content="Corpus, retrieval method, scoring, and limitations of the Stolen Moments jazz phrase archive.">
-  <link rel="canonical" href="https://dsleo.github.io/stolen-moments/method.html">
+  <meta name="description" content="Corpus, retrieval method, scoring, and limitations of the Footprints jazz phrase archive.">
+  <link rel="canonical" href="https://dsleo.github.io/jazz-footprints/method.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <title>How it works · Stolen Moments</title>
+  <title>How it works · Footprints</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,400,20,1;9..144,600,20,1&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -18,7 +18,7 @@
 <body class="methods-page">
   <a class="skip-link" href="#content">Skip to method</a>
   <header class="methods-header">
-    <a class="methods-brand" href="index.html#explore">Stolen Moments</a>
+    <a class="methods-brand" href="index.html#explore">Footprints</a>
     <a class="methods-back" href="index.html#explore"><span aria-hidden="true">↖</span> Return to the archive</a>
   </header>
   <main id="content">
@@ -48,7 +48,7 @@
       <article class="methods-article">
         <section id="film" class="methods-section methods-film-section">
           <figure class="methods-film">
-            <video controls preload="metadata" playsinline poster="media/how-it-works-poster.webp?v=3" aria-label="How Stolen Moments finds and compares similar jazz phrases">
+            <video controls preload="metadata" playsinline poster="media/how-it-works-poster.webp?v=3" aria-label="How Footprints finds and compares similar jazz phrases">
               <source src="media/how-it-works.webm?v=3" type="video/webm">
               <source src="media/how-it-works.mp4?v=3" type="video/mp4">
               <track kind="captions" src="media/how-it-works.vtt?v=3" srclang="en" label="English captions" default>
@@ -123,7 +123,8 @@
 
         <section id="listen-find" class="methods-section listen-method-section">
           <div class="section-heading"><span>From sound to score</span><h2>Listen &amp; Find</h2></div>
-          <p>Record a short solo or upload audio. A <a href="https://github.com/spotify/basic-pitch-ts" target="_blank" rel="noopener noreferrer">local Basic Pitch</a> model transcribes it into notes, then the archive ranks similar passages from WJazzD. Play both scores to compare them. A clear, single-note line works best.</p>
+          <p>Record a short solo or upload audio. A fast local pitch tracker detects the notes and searches the WJazzD solos. If the detection misses notes, “Refine notes” runs a slower <a href="https://github.com/spotify/basic-pitch-ts" target="_blank" rel="noopener noreferrer">Basic Pitch</a> analysis in your browser. Play both scores to compare them. A clear, single-note line works best.</p>
+          <p>The result percentage follows the archive’s rule: one minus pitch-and-rhythm cost divided by paired and skipped notes. A skipped note costs one; paired notes use the archive’s pitch, onset, and duration weights. The beat timing of a recorded phrase is estimated from each candidate solo, so the percentage is a listening aid rather than a probability of quotation.</p>
         </section>
 
         <section id="references" class="methods-section references">
@@ -134,11 +135,11 @@
             <li id="ref-2">Frieler, K., Höger, F., Pfleiderer, M., &amp; Dixon, S. 2018. “Two Web Applications for Exploring Melodic Patterns in Jazz Solos.” <em>Proceedings of ISMIR 2018</em>, 777–783. <a href="https://ismir2018.ircam.fr/doc/pdfs/177_Paper.pdf">Paper ↗</a></li>
             <li id="ref-3">Balke, S., Dittmar, C., Abeßer, J., Frieler, K., Pfleiderer, M., &amp; Müller, M. 2018. “Bridging the Gap: Enriching YouTube Videos with Jazz Music Annotations.” <em>Frontiers in Digital Humanities</em> 5:1. <a href="https://doi.org/10.3389/fdigh.2018.00001">DOI ↗</a></li>
           </ol>
-          <p class="methods-provenance">Implementation: <a href="https://github.com/dsleo/stolen-moments/blob/main/jazzmine/joint_search.py">search and scoring</a> · <a href="https://github.com/dsleo/stolen-moments/blob/main/jazzmine/joint_store.py">consolidation</a> · <a href="https://jazzomat.hfm-weimar.de/download/download.html">source database</a>. Catalog figures refer to the published 27 October 2026 export.</p>
+          <p class="methods-provenance">Implementation: <a href="https://github.com/dsleo/jazz-footprints/blob/main/jazzmine/joint_search.py">search and scoring</a> · <a href="https://github.com/dsleo/jazz-footprints/blob/main/jazzmine/joint_store.py">consolidation</a> · <a href="https://jazzomat.hfm-weimar.de/download/download.html">source database</a>. Catalog figures refer to the published 27 October 2026 export.</p>
         </section>
       </article>
     </div>
   </main>
-  <footer class="methods-footer"><span>Stolen Moments · a research instrument</span><a href="index.html#explore">Return to the archive ↗</a></footer>
+  <footer class="methods-footer"><span>Footprints · a research instrument</span><a href="index.html#explore">Return to the archive ↗</a></footer>
 </body>
 </html>

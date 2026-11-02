@@ -189,14 +189,13 @@ const facts = el("div", null, "facts");
 for (const [n, t] of [[fmt(sc.solo_pairs), "substantial solo-pair matches"], [sc.musicians, "musicians"], [sc.median_lag + " yrs", "median gap, source to echo"]]) { const d = el("div"); d.append(el("strong", n), el("span", t)); facts.append(d); }
 const begin = el("button", "Start the tour →", "begin", { type: "button" }); begin.onclick = () => go(1);
 const about = el("aside", null, "about");
-about.append(el("p", "About the data", "small-caps"));
 const li = (...parts) => { const l = el("li"); for (const p of parts) l.append(p); return l; };
 const link = (t, href) => el("a", t, null, { href, target: href.startsWith("http") ? "_blank" : null, rel: "noopener" });
 const list = el("ul");
 list.append(
-  li("1,558 transcribed solos by 111 musicians (1925–2015): 456 horn solos from the ", link("Weimar Jazz Database", "https://jazzomat.hfm-weimar.de/download/download.html"), " and 1,102 piano-trio solos from the ", link("Jazz Trio Database", "https://github.com/HuwCheston/Jazz-Trio-Database"), "."));
+  li("111 musicians (1925–2015): 456 horn solos from the ", link("Weimar Jazz Database", "https://jazzomat.hfm-weimar.de/download/download.html"), " and 1,102 piano-trio solos from the ", link("Jazz Trio Database", "https://github.com/HuwCheston/Jazz-Trio-Database"), "."));
 const code = el("p", null, "about-links");
-code.append(link("Code for this analysis ↗", "https://github.com/dsleo/stolen-moments/blob/main/jazzmine/quotation_stats.py"), link("Explore the archive ↗", "index.html#explore"));
+code.append(link("Code for this analysis ↗", "https://github.com/dsleo/jazz-footprints/blob/main/jazzmine/quotation_stats.py"));
 about.append(list, code);
 intro.firstChild.insertBefore(about, intro.firstChild.querySelector(".deck-text").nextSibling);
 intro.firstChild.append(facts);

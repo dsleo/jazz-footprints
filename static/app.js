@@ -439,7 +439,7 @@ function stopTranscript(){state.playbackRevision++;for(const source of state.sou
 async function pauseTranscript(){const playback=state.playback;if(playback?.mode!=='playing')return;await state.audio.suspend();if(state.playback===playback){playback.mode='paused';playback.onStateChange('paused')}}
 async function resumeTranscript(){const playback=state.playback;if(playback?.mode!=='paused')return;await state.audio.resume();if(state.playback===playback){playback.mode='playing';playback.onStateChange('playing')}}
 function setCatalogPlayButton(button,mode){if(!button.isConnected)return;button.dataset.playLabel??=button.getAttribute('aria-label');button.dataset.playing=String(mode==='playing');button.setAttribute('aria-label',mode==='playing'?button.dataset.playLabel.replace(/^Play /,'Pause '):mode==='paused'?button.dataset.playLabel.replace(/^Play /,'Resume '):button.dataset.playLabel);button.title=mode==='playing'?'Pause MIDI transcription':mode==='paused'?'Resume MIDI transcription':'Play MIDI transcription';button.querySelector('span').textContent=mode==='playing'?'❚❚':'▶'}
-window.StolenMoments={playTranscript,pausePlayback:pauseTranscript,resumePlayback:resumeTranscript,stopPlayback:stopTranscript,getPlaybackState:owner=>state.playback?.owner===owner?state.playback.mode:'stopped',openVideo:openVideoDialog};
+window.Footprints={playTranscript,pausePlayback:pauseTranscript,resumePlayback:resumeTranscript,stopPlayback:stopTranscript,getPlaybackState:owner=>state.playback?.owner===owner?state.playback.mode:'stopped',openVideo:openVideoDialog};
 
 document.addEventListener('click',event=>{
   const video=event.target.closest('[data-youtube-url]');
@@ -462,7 +462,7 @@ document.addEventListener('click',event=>{
   const viewBtn=event.target.closest('[data-view-btn]');if(viewBtn)setView(viewBtn.dataset.viewBtn);
   const match=event.target.closest('[data-match]');if(match){event.preventDefault();toggleDetail(match)}
   const alignmentToggle=event.target.closest('[data-toggle-alignment]');if(alignmentToggle){const panel=document.getElementById(alignmentToggle.getAttribute('aria-controls'));const open=panel.hidden;panel.hidden=!open;alignmentToggle.setAttribute('aria-expanded',String(open))}
-  const play=event.target.closest('[data-play]');if(play){const d=state.details[Number(play.dataset.detail)];if(d){const mode=window.StolenMoments.getPlaybackState(play);if(mode==='playing')pauseTranscript();else if(mode==='paused')resumeTranscript();else playTranscript(d[`${play.dataset.play}_notes`],{owner:play,onStateChange:next=>setCatalogPlayButton(play,next)})}}
+  const play=event.target.closest('[data-play]');if(play){const d=state.details[Number(play.dataset.detail)];if(d){const mode=window.Footprints.getPlaybackState(play);if(mode==='playing')pauseTranscript();else if(mode==='paused')resumeTranscript();else playTranscript(d[`${play.dataset.play}_notes`],{owner:play,onStateChange:next=>setCatalogPlayButton(play,next)})}}
   if(event.target.closest('[data-close-pair]'))$('#pair-dialog').close();
 });
 document.addEventListener('keydown',event=>{const match=event.target.closest('[data-match]');if(match&&(event.key==='Enter'||event.key===' ')){event.preventDefault();toggleDetail(match)}});

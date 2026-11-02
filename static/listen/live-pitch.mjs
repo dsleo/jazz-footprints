@@ -1,4 +1,4 @@
-import {resamplePCM, inspectPCM} from './note-normalize.mjs';
+import {resamplePCM, inspectPCM, normalizeNotes} from './note-normalize.mjs';
 
 const ANALYSIS_RATE = 11025;
 const FRAME = 1024;
@@ -113,4 +113,25 @@ export function trackMonophonicNotes(pcm, sampleRate, {windowStartSeconds = 0} =
     silent: false, clipping: signal.clippedFraction > 0.01,
     windowStartSeconds, windowEndSeconds: windowStartSeconds + duration,
     backend: 'yin'};
+}
+
+/** Analyze a complete short recording without loading the neural model. */
+export function trackRecordedNotes(pcm, sampleRate) {
+  if (!(pcm instanceof Float32Array) || !Number.isFinite(sampleRate) || sampleRate < 8000 || sampleRate > 192000 ||
+      pcm.length / sampleRate < 2 || pcm.length / sampleRate > 20.05)
+    throw new RangeError('Record or upload between 2 and 20 seconds of audio.');
+  const duration = pcm.length / sampleRate;
+  const pieces = [];
+  let clipped = false;
+  // The live tracker has a six-second memory bound. Slight overlap keeps notes
+  // crossing a chunk boundary; normalizeNotes joins their duplicate events.
+  for (let offset = 0; offset < pcm.length; offset += Math.floor(5 * sampleRate)) {
+    const end = Math.min(pcm.length, offset + Math.floor(5.25 * sampleRate));
+    const part = trackMonophonicNotes(pcm.slice(offset, end), sampleRate,
+      {windowStartSeconds: offset / sampleRate});
+    pieces.push(...part.notes);
+    clipped ||= !!part.clipping;
+  }
+  return {notes: normalizeNotes(pieces, duration), rawNoteCount: pieces.length,
+    silent: pieces.length === 0, clipping: clipped, backend: 'yin'};
 }

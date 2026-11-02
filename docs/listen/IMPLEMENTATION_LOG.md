@@ -36,7 +36,7 @@ acceptance. The user checklist is in `BROWSER_CHECKLIST.md`.
 | Focused debug-panel browser test | 1 passed |
 | Browser real-model examples | Clear and +7 semitone/1.25× slower both found Paul Desmond, “Alianca” |
 | Browser live tracker + corpus | Known synthetic phrase recovered |
-| Browser upload and `/stolen-moments/` subpath | Passed in a later focused run |
+| Browser upload and `/jazz-footprints/` subpath | Passed in a later focused run |
 | Symbolic pilot, `npm run benchmark:listen -- --count=12` | 60/60 positive variant cases, 0/12 random negative matches; search p95 933 ms on darwin/arm64 |
 
 The symbolic pilot report and case-level data are in `benchmark.md` and

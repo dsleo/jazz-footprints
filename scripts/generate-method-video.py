@@ -150,7 +150,7 @@ LAYERS = {
     "align": text_layer(["Then we line up", "the passages."], "The shared run grows into a note-by-note comparison.", 640, 27, "center", sub_y=616),
     "score": text_layer(["Small differences", "still matter."], "An extra note may be skipped. Pitch and rhythm shape the score.", 640, 27, "center", sub_y=616),
     "duet": duet_message_layer(),
-    "end": text_layer(["Stolen Moments"], None, 640, 66, "center", "title"),
+    "end": text_layer(["Footprints"], None, 640, 66, "center", "title"),
 }
 
 

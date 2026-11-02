@@ -1,10 +1,10 @@
-# Stolen Moments — launch media kit
+# Footprints — launch media kit
 
 **Working editorial angle:** *What happens when you put two jazz solos, recorded decades apart, side by side and listen to the notes?*
 
-**One-line description:** Stolen Moments is an interactive listening archive that finds similar passages in 456 transcribed jazz solos and lets you hear and inspect the match.
+**One-line description:** Footprints is an interactive listening archive that finds similar passages in 456 transcribed jazz solos and lets you hear and inspect the match.
 
-**Audience:** jazz listeners and musicians. **Voice:** curious, editorial, precise about what the data can show. **Configured publication URL:** <https://dsleo.github.io/stolen-moments/>. **Featured pair URL after the next deployment:** <https://dsleo.github.io/stolen-moments/?pair=87.562.200.283>.
+**Audience:** jazz listeners and musicians. **Voice:** curious, editorial, precise about what the data can show. **Configured publication URL:** <https://dsleo.github.io/jazz-footprints/>. **Featured pair URL after the next deployment:** <https://dsleo.github.io/jazz-footprints/?pair=87.562.200.283>.
 
 ## The story to lead with
 
@@ -18,19 +18,19 @@ Source transcription pages: [Brown, solo 87](https://jazzomat.hfm-weimar.de/dbfo
 
 ### Short description
 
-Stolen Moments turns a jazz transcription archive into a listening experiment. Choose two solos, hear the matched phrases, see where the notes agree or diverge, and jump to an available source recording. Its matches are invitations to listen, not claims that one artist copied another.
+Footprints turns a jazz transcription archive into a listening experiment. Choose two solos, hear the matched phrases, see where the notes agree or diverge, and jump to an available source recording. Its matches are invitations to listen, not claims that one artist copied another.
 
 ### Press paragraph
 
-What if the history of jazz could be explored one phrase at a time? Stolen Moments searches the 456 solo transcriptions in the Weimar Jazz Database for passages with similar pitch and rhythm. It pairs an audio rendering of each transcription with side-by-side notation and, where available, links into recordings. One striking example places Clifford Brown’s 1954 “A Night in Tunisia” next to Joe Henderson’s 1991 “Johnny Come Lately”: 38 notes align under the project’s heuristic score. The archive does not declare influence. It opens a path from a surprising visual match to a close listen.
+What if the history of jazz could be explored one phrase at a time? Footprints searches the 456 solo transcriptions in the Weimar Jazz Database for passages with similar pitch and rhythm. It pairs an audio rendering of each transcription with side-by-side notation and, where available, links into recordings. One striking example places Clifford Brown’s 1954 “A Night in Tunisia” next to Joe Henderson’s 1991 “Johnny Come Lately”: 38 notes align under the project’s heuristic score. The archive does not declare influence. It opens a path from a surprising visual match to a close listen.
 
 ### Short social post
 
-Two solos. Thirty-seven years apart. A phrase worth hearing twice. Stolen Moments lets you compare matched passages from the Weimar Jazz Database note by note, then listen for yourself. [Open the pair](https://dsleo.github.io/stolen-moments/?pair=87.562.200.283).
+Two solos. Thirty-seven years apart. A phrase worth hearing twice. Footprints lets you compare matched passages from the Weimar Jazz Database note by note, then listen for yourself. [Open the pair](https://dsleo.github.io/jazz-footprints/?pair=87.562.200.283).
 
 ### Alternative social post for musicians
 
-Is it a shared lick, a common shape, or a coincidence? Put two jazz transcriptions side by side and listen. Stolen Moments shows the aligned notes, skipped notes, and the source context so your ears can make the next call. [Hear an example](https://dsleo.github.io/stolen-moments/?pair=87.562.200.283).
+Is it a shared lick, a common shape, or a coincidence? Put two jazz transcriptions side by side and listen. Footprints shows the aligned notes, skipped notes, and the source context so your ears can make the next call. [Hear an example](https://dsleo.github.io/jazz-footprints/?pair=87.562.200.283).
 
 ## A 30-second launch clip
 
@@ -60,13 +60,13 @@ Use the app’s synthesized transcription audio for the clip unless the recordin
 | “85.4% similarity” for the Brown–Henderson example | A heuristic score on aligned transcribed pitch and rhythm; not a probability of borrowing or identical audio. |
 | “Listen to the passages” | Synthesized notes are available in the app; source recording links are available for some pairs and can have approximate timestamps. |
 
-Do not say “proved quotation,” “copied,” “plagiarized,” “influenced by,” or “the most influential musician.” Avoid “all of jazz.” Use “matched passages in this archive,” “similar transcribed phrases,” and “earlier/later recording” instead. The title *Stolen Moments* is the project's name, not an accusation.
+Do not say “proved quotation,” “copied,” “plagiarized,” “influenced by,” or “the most influential musician.” Avoid “all of jazz.” Use “matched passages in this archive,” “similar transcribed phrases,” and “earlier/later recording” instead.
 
 ## Assets and credits
 
 - **Social card:** [social-card.png](static/social-card.png) (1200 × 630; project-authored artwork, no cover or portrait imagery), with an editable [SVG source](static/social-card.svg). The site Open Graph metadata points to this PNG and includes image alt text.
 - **Hero art:** [jazz-desk-base.webp](static/assets/jazz-desk-base.webp) (1672 × 941; generated for this project). This is another project-art option for a text-led social post.
-- **Icon:** [favicon.svg](static/favicon.svg). Use “Stolen Moments” as live text beside it rather than stretching the icon into a wordmark.
+- **Icon:** [favicon.svg](static/favicon.svg). Use “Footprints” as live text beside it rather than stretching the icon into a wordmark.
 - **Product screenshots:** capture the landing, a pair view with both score excerpts, and the Echoes view after final UI and rights review. A press screenshot showing a third-party cover or portrait needs an explicit asset decision. The [campaign asset register](static/ASSET_RIGHTS.md) records known sources and clearance gaps.
 - **Data credit:** “Based on the Weimar Jazz Database v2.1 by the Jazzomat Research Project (HfM Weimar); data licensed under ODbL 1.0.” See [data attribution and licence](static/DATA_LICENSE.txt) and the [Jazzomat download page](https://jazzomat.hfm-weimar.de/download/download.html).
 - **Method:** link the public `method.html` page after its current local files are committed and deployed.

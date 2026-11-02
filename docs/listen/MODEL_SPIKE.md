@@ -1,5 +1,11 @@
 # Browser transcription spike
 
+**28 October update:** The released Listen interface now searches first with the
+local monophonic tracker used by the continuous-mode pilot. The slower Basic
+Pitch CPU model is available through **Refine notes** after fast detection.
+The CPU timings below describe that optional refinement, not the first-result
+path. Real-instrument accuracy and physical-phone latency are still unmeasured.
+
 27 October 2026; branch `codex/live-solo-search`; baseline commit `058aa70`.
 
 ## Runtime selected

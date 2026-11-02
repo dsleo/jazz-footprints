@@ -99,7 +99,7 @@ first real-inference test. Verify all of the following before implementing UI:
   `0.0.0-development` placeholder. Record model origin, license, SHA-256, runtime
   dependencies, compressed asset sizes and build command.
 - Load model assets from the site's own relative base path, including under
-  `/stolen-moments/`. Copy required licenses and notices.
+  `/jazz-footprints/`. Copy required licenses and notices.
 - Prove execution inside a dedicated Worker with transferable mono PCM. The
   library may expect an AudioBuffer-like input: inspect the pinned implementation
   and adapt its required interface explicitly. Do not assume browser AudioBuffer
@@ -501,7 +501,7 @@ perform the full five-minute session on the reference laptop before release.
 - Axe WCAG 2.2 AA checks in idle, recording, processing, results and error states;
   keyboard-only flow, focus restoration, visible focus, non-color-only statuses,
   reduced motion and screen-reader-friendly progress (no announcements every frame).
-- Serve under both `/` and `/stolen-moments/`; test model/shard/worker/worklet URLs.
+- Serve under both `/` and `/jazz-footprints/`; test model/shard/worker/worklet URLs.
 - No model requests on normal landing. During recording/inference, allow only
   same-origin static asset GETs; fail if any request transmits captured audio,
   including fetch/XHR/beacon/WebSocket. Inspect browser storage for audio remnants.

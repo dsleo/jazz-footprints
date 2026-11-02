@@ -1,6 +1,6 @@
-# Stolen Moments
+# Footprints
 
-**Live site: <https://dsleo.github.io/stolen-moments/>**
+**Live site: <https://dsleo.github.io/jazz-footprints/>**
 
 A read-only web app for discovering shared phrases in 1,558 solo transcriptions: the 456 saxophone, trumpet, trombone and clarinet solos of the Weimar Jazz Database (WJazzD) v2.1, and 1,102 piano-trio solos from the [Jazz Trio Database](https://github.com/HuwCheston/Jazz-Trio-Database) (JTD). Pick a pair of solos, hear both, see the notes line up, and jump to the recording at that moment. The whole archive is **precomputed**, so the published site is plain static files: no server, database or build step at view time. See [STATIC_SITE.md](STATIC_SITE.md) for hosting details.
 
@@ -22,7 +22,9 @@ Open [http://127.0.0.1:8766](http://127.0.0.1:8766). It cannot be opened as `fil
 - **Passage view:** two score excerpts, a synthesized rendering of each (the database notes, not the original audio), and links into the source recordings.
 - **Pair links:** opening a passage gives it a shareable `?pair=` URL in the address bar, based on source solo IDs and starting note positions. A ranking reorder does not change these links; a pair removed by a future catalog rebuild cannot be reopened.
 - **Echoes:** a timeline of musicians and the strongest connections between them. Select a musician to trace who echoes whom.
-- **Listen & Find (feature branch):** record a single melodic instrument, upload a short audio file, or try a built-in example to search every WJazzD solo for similar note passages. A separate continuous mode updates suggestions as notes arrive. Audio is processed in the browser. See [the browser checklist](docs/listen/BROWSER_CHECKLIST.md) and [the model spike](docs/listen/MODEL_SPIKE.md) for tested behavior and limits.
+- **Listen & Find:** record a single melodic instrument, upload a short audio file, or try a built-in example to search every WJazzD solo for similar note passages. A fast local pitch tracker gives the first result; **Refine notes** offers a slower local Basic Pitch pass when needed. Audio is processed in the browser. The displayed similarity uses the archive's pitch, timing, duration, and skip costs divided by paired plus skipped notes; timing for recorded audio is estimated from the candidate passage. See [the browser checklist](docs/listen/BROWSER_CHECKLIST.md) and [the model spike](docs/listen/MODEL_SPIKE.md) for tested behavior and limits.
+
+- **Who echoes whom:** [stats.html](static/stats.html) is a slide tour of the musicians whose phrases are matched most often in later solos, and of those who match the most earlier ones. Every claim opens the passages behind it, to hear and compare. Regenerate `static/stats.json` with `python3 -m jazzmine.quotation_stats` after rebuilding the catalog.
 
 Scores are heuristics for listening, not evidence of quotation or influence.
 

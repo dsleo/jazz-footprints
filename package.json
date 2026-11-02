@@ -1,5 +1,5 @@
 {
-  "name": "stolen-moments-browser-gate",
+  "name": "jazz-footprints-browser-gate",
   "private": true,
   "scripts": {
     "test:browser": "playwright test",

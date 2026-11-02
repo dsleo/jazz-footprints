@@ -451,5 +451,5 @@ def serve(host: str = "127.0.0.1", port: int = 8766):
             except (ValueError, TypeError, sqlite3.Error) as exc:
                 self._json({"error": str(exc)}, 400)
 
-    print(f"Stolen Moments: http://{host}:{port}", flush=True)
+    print(f"Footprints: http://{host}:{port}", flush=True)
     ThreadingHTTPServer((host, port), Handler).serve_forever()
