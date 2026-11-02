@@ -17,7 +17,7 @@ def solo(mid: int, *, start: float = 0.0):
         melid=mid, trackid=mid + 100, performer=f"Player {mid}", title="A phrase",
         album="Record", album_artist="Leader", instrument="ts", year=1958,
         composition_id=9, solo_start=start,
-        source_url=f"https://example.org/solo/{mid}",
+        source="WJazzD", source_url=f"https://example.org/solo/{mid}",
         pitches=[60, 62, 64], onsets=[0.0, .5, 1.0],
         durations=[.4, .4, .4], beat_positions=[0.0, 1.0, 2.0],
     )
