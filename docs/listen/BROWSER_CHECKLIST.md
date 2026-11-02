@@ -39,6 +39,4 @@ collection. Use the supplied example or a known archive phrase for a positive
 check. Please note browser/device versions and any failed step when reporting
 feedback.
 
-Implementation agents should record their own measured results separately in
-`docs/listen/IMPLEMENTATION_LOG.md`; these boxes represent the user's check, not
-an automated pass.
+These boxes record a person's check, not an automated pass.

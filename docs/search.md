@@ -4,7 +4,7 @@
 > published catalog now uses v3, which keeps qualifying prefixes when a longer
 > continuation falls below the export floor. Counts and threshold comparisons
 > below do not describe the current catalog; see the current figures in
-> [README.md](README.md).
+> [README.md](../README.md).
 
 This branch adds an experimental, read-only replacement for the present motif
 miner. It writes `data/joint-search.db` and never changes `data/workbench.db` or
@@ -151,3 +151,35 @@ python3 -m jazzmine.joint_store --output data/joint-search.db
 `data/search-comparison-100000.json` and `data/search-comparison-full.json`
 contain the recorded benchmark output. The generated SQLite file is ignored
 by Git and can be rebuilt. Existing uncommitted project work was left alone.
+
+## Near-duplicate passages
+
+**Issue.** In the joint pitch-and-rhythm search every 5-interval seed inside a long shared phrase extends to almost the same window, shifted by a few notes. Dropping only windows *contained* in another left these overlapping variants, so one real match appeared several times with start times a second apart (for example Steve Coleman's "The Oracle" against Steve Lacy's "Skippy": five 25-26 note windows starting at notes 514, 516, 519, 522 and 525).
+
+**Fix.** `consolidate()` in `jazzmine/joint_store.py` runs at the end of every build (pipeline `joint-seed-5-right-v3`). The aligner now retains the longest endpoint that still meets the 80% export floor, then consolidates overlapping windows within each ordered solo pair. Windows that overlap a stronger one by at least 50% of the shorter range on **both** solos are treated as the same passage; the highest-evidence window is kept. To rebuild and publish: `python3 -m jazzmine.joint_store`, then `python3 -m jazzmine.static_export`.
+
+**Current catalog** (1 November 2026, similarity ≥ 0.8, WJazzD plus all of JTD):
+
+| Measure | Count |
+| --- | ---: |
+| Passages in the static catalog | 323,411 |
+| Source solos represented | 1,558 (456 WJazzD, 1,102 JTD) |
+
+The endpoint change increased the catalog because qualifying prefixes survive a poorer continuation. The 50% overlap threshold remains a judgement call and has not been tuned against listener labels.
+
+**Still open.**
+- About 1,500 pairs of kept windows overlap by 25-50% on both solos. Nearly all sit on different diagonals (a different alignment of a repeated motif), so they are treated as distinct passages. Only a few dozen share a diagonal.
+- Alternate takes of one tune by the same performer (for example two "The Oracle" solos) are separate solos and can each match the same other solo at the same notes. About 140 such take pairs exist; they are different recordings and are not merged.
+- The 50% threshold is a judgement call, not tuned against labels.
+
+## Limitations
+
+- **Common seeds are skipped.** A phrase built only from seeds seen more than 80 times is never found.
+- **Exact core required.** Every match starts from 5 identical intervals (6 notes) and ends up at least 8 paired notes long. Shorter motifs, and heavily reworked quotations, are out of scope.
+- **Pitch creates candidates; rhythm does not.** Octave displacement and contour-preserving variants with different interval sizes are not matched.
+- **Rightward extension only.** The alignment starts at the seed and grows right, so a passage may begin a few notes after its true start; neighbouring seeds are merged by the clean-up above.
+- **Different solos only.** A phrase repeated inside one solo is not reported, though the same performer across two solos is.
+- **Two collections.** The site holds WJazzD (456 solos) and the Jazz Trio Database (1,102 solos). DTL1000 is prepared but not included (below). JTD piano is reduced to its top note per onset, so JTD matches are rougher than WJazzD ones; filter on *Piano · top-note projection* to inspect them.
+- **Scoring is a heuristic** with hand-set weights, not calibrated against expert labels.
+- **Recording links are approximate.** Timestamps are interpolated from JazzTube's solo alignment and rounded down to the second; a particular upload may need manual correction, and 124,563 of the 646,822 passage sides in the current catalog have no matched video. JTD links come from the database's own YouTube URLs and solo start times; passages whose video is unavailable or shorter than the timestamp are dropped (21,174 in the current build), as are a few hand-excluded pairs listed in `data/catalog-exclusions.json`.
+- **Everything loads in the browser.** The compact index is about 9.4 MB compressed; passage details and notes are fetched on demand, while filtering and graph calculations run in a Web Worker.

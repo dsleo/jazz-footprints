@@ -70,3 +70,15 @@ onsets, durations, and a definition of the onset time origin. A CSV, JSON, or
 SQLite export is sufficient; audio is unnecessary. The UK Data Service record
 lists Simon Dixon (`s.e.dixon@qmul.ac.uk`) as the dataset contact. No message has
 been sent.
+
+
+---
+
+### DTL1000 note tracks
+
+The [current DTL1000 metadata export](https://dig-that-lick.hfm-weimar.de/similarity_search/documentation) lists 1,685 solos. Its solo-detail pages expose pitches, onsets, and durations for MIDI playback, so audio files are not needed for motif search. A local importer and cross-collection search support are prepared, but the site blocked bulk requests after 750 note tracks were fetched; its [robots rules](https://dig-that-lick.hfm-weimar.de/robots.txt) also disallow automated crawling. The app deliberately continues to show only the complete WJazzD index. Completing the DTL1000 import requires an authorized note-track export or permission from the project. DTL1000 notes are automatic transcriptions and have no annotated beat or harmony grid.
+
+The 23 October reconciliation above verifies the original archive,
+lists the 935 missing note tracks, and documents timestamp discrepancies between
+the JSON and CSV. Run `python3 -m jazzmine export-dtl /path/to/dtl_1000.json` to
+produce a staging JSON with available notes, original metadata, and a gap report.

@@ -4,7 +4,7 @@
 > published catalog now uses v3, which keeps qualifying prefixes when a longer
 > continuation falls below the export floor. Counts and threshold comparisons
 > below do not describe the current catalog; see the current figures in
-> [README.md](README.md).
+> [README.md](../README.md).
 
 I analyzed **all 360,578** containment-filtered results in the experimental
 WJazzD joint-search database, recomputed each stored alignment's pitch,
@@ -12,9 +12,9 @@ onset, duration, and skip costs, and checked that every recomputed total
 agreed with the stored cost. The threshold means `similarity >= t`, where
 `similarity = 1 - cost/(paired notes + skipped notes)`. The source checksum
 and full reproducible figures are in
-[`data/joint-threshold-analysis.json`](data/joint-threshold-analysis.json).
+[`data/joint-threshold-analysis.json`](../data/joint-threshold-analysis.json).
 
-![Result count, download size, and current top-result coverage by threshold](data/joint-threshold-chart.png)
+![Result count, download size, and current top-result coverage by threshold](../data/joint-threshold-chart.png)
 
 ## Results and actual compressed size
 
@@ -98,7 +98,7 @@ only the strongest results first without discarding the 0.80–0.82 band.
 
 This is a size-and-coverage decision, **not a validated relevance threshold**.
 No listener reviews are saved. Before treating 0.80 as permanent, listen to
-the existing [`data/search-review-sample.csv`](data/search-review-sample.csv)
+the existing [`data/search-review-sample.csv`](../data/search-review-sample.csv)
 and add a sample of gapped matches and current-high-ranked matches lost below
 0.80. In particular, review whether the skip cost of 1 and the local budget
 of 2 are suppressing useful ornaments; a different cost model could change

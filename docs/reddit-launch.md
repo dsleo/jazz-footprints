@@ -39,7 +39,7 @@ Say "matching passages", "recorded earlier / later". Never "copied", "stole", "i
 
 ### r/dataisbeautiful (needs an image; mark OC)
 
-**Image:** screenshot slide 02 (`stats.html#sources`, Brown vs Brecker with scores open) or slide 03 (`#echoes`) at ≥ 1400 px width. Chips show album covers and Wikimedia portraits; check `static/ASSET_RIGHTS.md` before using screenshots in press material.
+**Image:** screenshot slide 02 (`stats.html#sources`, Brown vs Brecker with scores open) or slide 03 (`#echoes`) at ≥ 1400 px width. Chips show album covers and Wikimedia portraits; check `static/asset-rights.md` before using screenshots in press material.
 **Title:** [OC] Whose phrases show up in later jazz solos? Matching 1,558 transcribed solos, Clifford Brown's phrases come back most, Michael Brecker echoes the most
 
 > Source: Weimar Jazz Database + Jazz Trio Database. Tool: Python alignment of pitch intervals and rhythm (≥ 80% similarity). Counts are matched solo pairs between different musicians and tunes, "source" = earlier recording year. Hit rates divide by the later (or earlier) solos that could have matched, since a 1925 solo can only be a source. Not evidence of influence. Full method and caveats: <https://dsleo.github.io/jazz-footprints/stats.html>
