@@ -111,7 +111,7 @@ test('mobile landing, archive, pair details, deep links, and method assets', asy
 
   const methodCss = page.waitForResponse(response => response.url().includes('/method.css'));
   const stylesCss = page.waitForResponse(response => response.url().includes('/styles.css'));
-  await page.locator('.method-entry a').click();
+  await page.locator('.method-entry a[href="method.html"]').click();
   await expect(page).toHaveURL(/method\.html$/);
   await expect(page.getByRole('heading', { name: 'How it works' })).toBeVisible();
   await expectAccessible(page, 'method page');
@@ -131,7 +131,7 @@ test('the no-Worker fallback still browses the default archive', async ({ browse
   await context.addInitScript(() => Object.defineProperty(window, 'Worker', { configurable: true, value: undefined }));
   const page = await context.newPage();
   await page.goto('/#explore');
-  await expect(page.locator('#result-count')).toHaveText('213,870', { timeout: 60_000 });
+  await expect(page.locator('#result-count')).toHaveText('322,040', { timeout: 60_000 });
   await expect(page.locator('.crate-card').first()).toBeVisible();
   await context.close();
 });
@@ -139,7 +139,7 @@ test('the no-Worker fallback still browses the default archive', async ({ browse
 test('Echoes keyboard path reaches musicians directly and preserves focus', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');
-  await expect(page.locator('#landing-title')).toContainText('Moments');
+  await expect(page.locator('#landing-title')).toContainText('Footprints');
   await page.locator('#landing-prompt').click();
   await page.locator('[data-view-btn="echoes"]').click();
   const nodes=page.locator('#echoes-scroll .echo-node');
